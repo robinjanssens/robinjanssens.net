@@ -5,7 +5,7 @@
 
 .navbar {
   /* Chrome issue fix */
-  -webkit-transform: translateZ(0);
+  -webkit-transform: rotateZ(360deg);
 }
 
 /*===== Brand =====*/
