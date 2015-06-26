@@ -1,72 +1,69 @@
-.navigation {
-  position: fixed;
-  top: 0;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+.navbar-default {
+  background-color: transparent;
+  border: none;
 }
 
-.navigation-brand {
+.navbar {
+  /* Chrome issue fix */
+  -webkit-transform: translateZ(0);
+}
+
+/*===== Brand =====*/
+.navbar-brand {
   font-family: 'stencil';
   font-size: 28px;
   float: left;
+  padding: 20px 20px;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fff;
 }
 
-.navigation-item {
-  float: right;
+/*===== Icon =====*/
+.navbar-default .navbar-toggle {
+  margin: 15px 20px;
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
 }
 
-
-.navigation-item > li {
+/*===== Items =====*/
+.navbar-nav > li {
   display: inline-block;
 }
-.navigation-item > li + li {
+.navbar-nav > li + li {
   margin-left: 20px;
 }
-.navigation-item > li > a {
+.navbar-default .navbar-nav > li > a {
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
+  color: #bbb; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
-.navigation-item > li > a:hover,
-.navigation-item > li > a:focus {
-  background-color: transparent;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  /*background-color: transparent;*/
+  color: #bbb; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
-.navigation-item > .active > a,
-.navigation-item > .active > a:hover,
-.navigation-item > .active > a:focus {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
   color: #fff;
   border-bottom-color: #fff;
-}
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .navigation {
-    width: 750px;
-    left: 50%;
-    margin-left: -375px; // correcting mistake
-  }
-}
-
-@media (min-width: 992px) {
-  .navigation {
-    width: 970px;
-    left: 50%;
-    margin-left: -485 px; // correcting mistake
-  }
-}
-
-@media (min-width: 1200px) {
-  .navigation {
-    width: 1170px;
-    left: 50%;
-    margin-left: -585px; // correcting mistake
-  }
 }
