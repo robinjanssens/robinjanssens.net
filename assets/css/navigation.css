@@ -5,7 +5,16 @@
 
 .navbar {
   /* Chrome issue fix */
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  backface-visibility: hidden;
+  perspective: 1000;
   -webkit-transform: rotateZ(360deg);
+  -webkit-transform: translatez(1000);
+  -moz-transform: translatez(1000);
+  -ms-transform: translatez(1000);
+  -o-transform: translatez(1000);
+  transform: translatez(1000);
 }
 
 /*===== Brand =====*/
