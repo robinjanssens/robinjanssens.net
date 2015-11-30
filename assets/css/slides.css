@@ -59,6 +59,7 @@ p {
   margin-top: 50px;
 }
 .down-arrow {
+  display: none; /* on small devices */
   position: absolute;
   bottom: 0;
   font-size: 40px;
@@ -132,6 +133,9 @@ p {
 @media (min-width: 480px) {
   .h0 {
     font-size: 60px;
+  }
+  .down-arrow {
+    display: block;
   }
 }
 
