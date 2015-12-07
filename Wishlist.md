@@ -39,6 +39,13 @@ Tools
 - Lasbril
 - Snijbrander
 - Bankschroef
+- [Loctite 243](http://www.conrad.be/ce/nl/product/220822/LOCTITE-243-1335884-Schroefborging-50-ml?ref=list)
+- Dowels (Pluggen)
+  - [5 mm 100 Pieces](http://www.conrad.be/ce/nl/product/1399978/Fischer-555005-5-mm-100-stuks?ref=list)
+  - [8 mm 100 Pieces](http://www.conrad.be/ce/nl/product/1399980/Fischer-555008-8-mm-100-stuks?ref=list)
+  - [10 mm 50 Pieces](http://www.conrad.be/ce/nl/product/1399981/Fischer-555010-10-mm-50-stuks?ref=list)
+- Hex Screws for Dowels (Zeskantschroeven voor pluggen)
+- Wood Screws Pozidriv (Woodtex)
 - C-clamps
 - Vijlen
 - [Ontbraam Set](http://www.conrad.be/ce/nl/product/813077/4-delige-universele-ontbraamset-Exact-60005?ref=list)
@@ -205,18 +212,3 @@ Boeken
 - ["Hackers: Heroes of the Computer Revolution" by Steven Levy](http://www.bol.com/nl/p/hackers/1001004009811146/)
 - ["Makers: The New Industrial Revolution Hardcover" by Chris Anderson](http://www.bol.com/nl/p/makers/9200000008949971/)
 - ["I, Robot" by Isaac Asimov](http://www.bol.com/nl/p/i-robot/9200000013322521/)
-- ["The Complete Robot" by Isaac Asimov](http://www.bol.com/nl/p/the-complete-robot/1001004001243380/)
-- "Eureka: Substitution Method" van Cris Ramsay
-- "Eureka: Brain Box Blues" van Cris Ramsay
-- "Eureka: Roads Less Traveled" van Cris Ramsay
-
-Strips
-------
-- Eureka #1
-- Eureka #2
-- Eureka #3
-- Eureka #4
-- Eureka: Dormant Gene #1
-- Eureka: Dormant Gene #2
-- Eureka: Dormant Gene #3
-- Eureka: Dormant Gene #4
