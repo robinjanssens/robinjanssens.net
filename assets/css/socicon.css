@@ -74,6 +74,9 @@
 .soc-email2:before {
     content:'.';
 }
+.soc-instagram:before {
+    content:'x';
+}
 .soc-google:before {
     content:'c';
 }
