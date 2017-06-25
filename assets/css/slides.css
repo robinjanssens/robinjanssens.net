@@ -35,7 +35,7 @@ p {
 .h0 {
   margin-top: 50px;
   margin-bottom: 30px;
-  font-family: 'stencil';
+  font-family: 'Allerta Stencil', sans-serif;
   font-size: 50px;
 }
 
@@ -117,11 +117,6 @@ p {
 /* ==============================
   Fonts
 =============================== */
-@font-face {
-  font-family: 'stencil';
-  src: url('../fonts/stencil.ttf');
-}
-
 @font-face {
   font-family: 'Source Code Pro';
   src: url('../fonts/SourceCodePro-Regular.ttf');
