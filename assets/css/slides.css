@@ -114,13 +114,6 @@ p {
   margin-bottom: 24px;
 }
 
-/* ==============================
-  Fonts
-=============================== */
-@font-face {
-  font-family: 'Source Code Pro';
-  src: url('../fonts/SourceCodePro-Regular.ttf');
-}
 
 /* ==============================
   RESPONSIVE CSS
