@@ -1,17 +1,12 @@
 Wish list
 =========
 
-Gadgets
--------
-- [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
-- [Crazyflie 2](https://www.antratek.be/crazyflie-2-nano-quadcopter)
-- Tedco Gyroscope
-
 Computer & Network
 ------------------
 - [3.5" HDD 3TB](http://www.alternate.be/Seagate/Desktop-HDD-3-TB-harde-schijf/html/product/965387?tk=7&lk=6074)
 - [HDMI IPS LED monitor](http://www.computerstore.be/category/123675/monitoren.html?723=8221,10972&95912=83435&92=74414&3764=11523)
 - [Aeon Labs Z-Wave USB Adapter](https://www.kiwi-electronics.nl/aeon-labs-z-wave-usb-adapter-met-batterij-z-stick-series-2?gclid=CjwKEAjw-IOwBRD1wrTC27fSjFISJABUDZ17Q4bu3Ypk0OOYo12X3emB-fJBo_45BJjTr1wvIMCaPRoC78Tw_wcB)
+- [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
 - Projector
 - UPS
 - KVM Switch
@@ -19,17 +14,15 @@ Computer & Network
 - [Leap Motion Controller](http://store-eur.leapmotion.com/)
 - IP Camera
 - [Presenter](https://tweakers.net/pricewatch/300943/logitech-r400-wireless-presenter.html)
+- [Crazyflie 2](https://www.antratek.be/crazyflie-2-nano-quadcopter)
 
 Tools
 -----
-- Cork on a Roll
-- Slide Rule
 - Laser Cutter
 - [IKEA Fixa schroevendraaier](http://www.ikea.com/be/nl/catalog/products/20214199/)
 - Kompas
 - Slijpschijf
 - Kolomboormachine
-- [Dremel](http://www.powertoolshop.be/product/275199/category-205400-dremel/dremel-4000-platinum-editie.html) or [Proxxon](http://www.conrad.be/ce/nl/product/823820/Proxxon-Micromot-IBSE-boorslijper-100-W-10-32-mm-28-481?ref=list)
 - [Flexible Shaft for Proxxon](http://www.conrad.be/ce/nl/product/826203/Proxxon-Micromot-110FB-flexibele-as-28-622/SHOP_AREA_37387)
 - [Drilling and Milling Stand](http://www.conrad.be/ce/nl/product/826064/Boor-en-freesbank-BFB-2000-Proxxon-Micromot-20-000?ref=searchDetail)
 - [Cross Tabel](http://www.conrad.be/ce/nl/product/826095/Proxxon-Micromot-KT-150-20-150-Kruistafel/?ref=bundles&rt=bundles&rb=1)
@@ -66,9 +59,6 @@ Tools
 
 Electronics
 -----------
-- [4 Eneloop AA](http://www.conrad.be/ce/nl/product/1188321/Panasonic-eneloop-HR06-AA-oplaadbare-batterij-penlite-NiMH-12-V-1900-mAh-4-stuks?ref=searchDetail)
-- [4 Eneloop AAA](http://www.conrad.be/ce/nl/product/1188326/Panasonic-eneloop-AAA-oplaadbare-batterij-potlood-NiMH-750-mAh-12-V-4-stuks?ref=searchDetail)
-- [Rechargeable 9V Battery](http://www.conrad.be/ce/nl/product/399413/Duracell-6LR61-9V-oplaadbare-batterij-blok-NiMH-84-V-170-mAh-1-stuks?ref=list)
 - Lipo Charger
 - Static Surface Charge Meter
 - Solderingstation ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ)) or ([Weller WS 81](http://www.conrad.be/ce/nl/product/811810/Weller-WS-81-Analoog-Soldeerstation-95-W-150-tot-450-C?queryFromSuggest=true))
@@ -100,7 +90,6 @@ Electronics
   - Female 5.5mm Jack
   - Colored Jumpers
   - Flatcable Connectors
-  - Coin Motors
 
 Elektricity
 -----------
