@@ -115,6 +115,7 @@ Chemistry
 - Nitric Acid
 - Maiszetmmeel
 - [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
+- [the Odin (CRISPR starter kit)](http://www.the-odin.com/diy-crispr-kit/)
 - Natriumwaterstofcarbonaat (AKA Dubbelkoolzure Soda)
 - Kaliumwaterstoftartraat (AKA Wijnsteen)
 - Koper(II)sulfaat
