@@ -1,5 +1,19 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   padding-top: 3.5rem; /* Move down content because we have a fixed navbar that is 3.5rem tall */
+  margin-bottom: 15rem; /* Margin bottom by footer height 12rem */
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 12rem;
+  line-height: 12rem; /* Vertically center the text there */
+  background-color: #222222;
 }
 /* change the background color */
 .navbar-custom {
