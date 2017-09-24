@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: 'Allerta', sans-serif; /* Use Allerta font as default font */
+  font-family: 'Allerta', sans-serif; /* Use 'Allerta' font as default font */
   padding-top: 4rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
   padding-bottom: 21.5rem; /* Margin bottom by footer height 12rem */
 }
@@ -12,6 +12,7 @@ section {
     padding-bottom: 2rem;
 }
 article {
+  font-family: 'Roboto', sans-serif; /* Use 'Roboto' font for articles */
   padding-top: 4rem;
   padding-bottom: 5rem;
 }
