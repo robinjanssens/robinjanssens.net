@@ -3,8 +3,12 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: 6rem;    /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  margin-bottom: 23rem; /* Margin bottom by footer height 12rem */
+  padding-top: 4rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
+  margin-bottom: 20rem; /* Margin bottom by footer height 12rem */
+}
+article {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 .footer {
   position: absolute;
@@ -16,12 +20,12 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.footer h2{
+.footer h2 {
   font-family: 'Allerta', sans-serif;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
-.social a{
+.social a {
   font-family: 'Allerta', sans-serif;
   font-size: 1.4rem;
   text-decoration: none;
@@ -36,6 +40,22 @@ body {
 }
 .social .gap {
   padding-left: 1rem;
+}
+.footer-links {
+  padding-top: 1rem;
+}
+.footer-links a {
+  font-family: 'Allerta', sans-serif;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+.footer-links a:link,
+.footer-links a:visited {
+  color: rgb(128,128,128);
+}
+.footer-links a:hover,
+.footer-links a:active {
+  color: rgb(192,192,192);
 }
 /* change the background color */
 .navbar-custom {
