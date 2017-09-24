@@ -16,6 +16,9 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.footer h1{
+  font-family: 'Allerta', sans-serif;
+}
 /* change the background color */
 .navbar-custom {
   background-color: rgb(255,255,255);
