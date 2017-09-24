@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 body {
-  padding-top: 3.5rem; /* Move down content because we have a fixed navbar that is 3.5rem tall */
+  padding-top: 6rem;    /* Move down content because we have a fixed navbar that is 3.5rem tall */
   margin-bottom: 15rem; /* Margin bottom by footer height 12rem */
 }
 .footer {
