@@ -10,6 +10,31 @@ article {
   padding-top: 4rem;
   padding-bottom: 5rem;
 }
+
+.graffiti {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    line-height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: rgb(128,128,128);
+}
+@media (min-width: 576px) { .graffiti {font-size: 5rem;} }
+@media (min-width: 768px) { .graffiti {font-size: 6rem;} }
+@media (min-width: 992px) { .graffiti {font-size: 7rem;} }
+.rotate-clockwise {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+.rotate-counterclockwise {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -57,6 +82,7 @@ article {
 .footer-links a:active {
   color: rgb(192,192,192);
 }
+
 /* change the background color */
 .navbar-custom {
   background-color: rgb(255,255,255);
