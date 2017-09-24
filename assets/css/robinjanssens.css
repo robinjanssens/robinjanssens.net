@@ -10,33 +10,30 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 12rem;
+  height: 12rem;      /* Set the fixed height of the footer here */
   line-height: 12rem; /* Vertically center the text there */
-  background-color: #222222;
+  background-color: rgb(32,32,32);
 }
 /* change the background color */
 .navbar-custom {
-    background-color: #ffffff;
-    box-shadow: 0px 10px 10px rgba(180,180,180,0.2)
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 10px 10px rgba(180,180,180,0.2)
 }
-/* change the brand and text color */
+/* change the brand, link and text color */
 .navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgba(25,25,25,.5);
-}
-/* change the link color */
+.navbar-custom .navbar-text,
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(25,25,25,.5);
-    padding-right: 1.5rem;
+  color: rgb(128,128,128);
 }
-/* change the color of active or hovered links */
+/* change the spacing between links*/
+.navbar-custom .navbar-nav .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* change the color of active or hovered links and brand */
 .navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: rgba(25,25,25,.2);
-}
-/* change the color of active or hovered brand */
+.navbar-custom .nav-item:hover .nav-link,
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:hover {
-    color: rgba(25,25,25,.2);
+  color: rgb(200,200,200);
 }
