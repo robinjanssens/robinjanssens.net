@@ -11,8 +11,10 @@ body {
   bottom: 0;
   width: 100%;
   height: 12rem;      /* Set the fixed height of the footer here */
-  line-height: 12rem; /* Vertically center the text there */
   background-color: rgb(32,32,32);
+  color: rgb(128,128,128);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 /* change the background color */
 .navbar-custom {
