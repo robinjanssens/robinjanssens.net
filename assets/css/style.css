@@ -4,21 +4,28 @@ html {
 }
 body {
   padding-top: 4rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  margin-bottom: 20rem; /* Margin bottom by footer height 12rem */
+  padding-bottom: 21.5rem; /* Margin bottom by footer height 12rem */
+}
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 article {
   padding-top: 4rem;
   padding-bottom: 5rem;
 }
 
+h1 {
+  font-family: 'Allerta Stencil', sans-serif;
+}
 .graffiti {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 3.5rem;
     width: 100%;
     text-align: center;
     line-height: 100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     color: rgb(128,128,128);
 }
 @media (min-width: 576px) { .graffiti {font-size: 5rem;} }
@@ -35,11 +42,23 @@ article {
   transform: rotate(7deg);
 }
 
+.btn-outline-primary {
+  color: rgb(128,128,128);
+  border-color: rgb(128,128,128);
+  border-width: 2px;
+  border-radius: 10px;
+}
+.btn-outline-primary:hover {
+  background-color: transparent;
+  color: rgb(200,200,200);
+  border-color: rgb(200,200,200);
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  min-height: 20rem;      /* Set the fixed height of the footer here */
+  min-height: 21.5rem;      /* Set the fixed height of the footer here */
   background-color: rgb(32,32,32);
   color: rgb(128,128,128);
   padding-top: 1rem;
