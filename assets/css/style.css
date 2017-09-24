@@ -10,7 +10,7 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 20rem;      /* Set the fixed height of the footer here */
+  min-height: 20rem;      /* Set the fixed height of the footer here */
   background-color: rgb(32,32,32);
   color: rgb(128,128,128);
   padding-top: 1rem;
@@ -19,11 +19,11 @@ body {
 .footer h2{
   font-family: 'Allerta', sans-serif;
   padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 .social a{
   font-family: 'Allerta', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 .social a:link,
@@ -35,7 +35,7 @@ body {
   color: rgb(192,192,192);
 }
 .social .gap {
-  padding-left: 1rem;  
+  padding-left: 1rem;
 }
 /* change the background color */
 .navbar-custom {
