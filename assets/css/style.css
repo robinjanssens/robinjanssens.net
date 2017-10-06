@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6, p {
   float: none;    /* Center cards */
   margin-bottom: 0.5rem; /* Keep horizontal space between cards */
   padding: 1rem; /* In every direction 1rem space between content and border */
+  box-shadow: 7px 12px 5px rgba(0, 0, 0, 0.3);
 }
 .img-circle {
   border-radius: 50%; /* Make it a circle */
