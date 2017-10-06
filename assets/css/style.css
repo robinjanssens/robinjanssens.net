@@ -8,8 +8,8 @@ body {
   padding-bottom: 21.5rem; /* Margin bottom by footer height 12rem */
 }
 section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 article {
   font-family: 'Open Sans', sans-serif; /* Use 'Open Sans' font for articles */
@@ -17,11 +17,14 @@ article {
   padding-bottom: 5rem;
 }
 /* Display all headers in 'Allerta' font */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   color: rgb(128,128,128);
 }
-p {
-  color: rgb(128,128,128);
+.inverse {
+  background-color: rgb(128,128,128);
+}
+.inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6, .inverse p {
+  color: rgb(255,255,255);
 }
 .graffiti {
     font-family: 'Allerta Stencil', sans-serif;
@@ -30,7 +33,7 @@ p {
     text-align: center;
     line-height: 100%;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     color: rgb(128,128,128);
 }
 @media (min-width: 576px) { .graffiti {font-size: 5rem;} }
@@ -54,6 +57,17 @@ p {
   border-radius: 10px;
 }
 .btn-outline-primary:hover {
+  background-color: transparent;
+  color: rgb(200,200,200);
+  border-color: rgb(200,200,200);
+}
+.inverse .btn-outline-primary {
+  color: rgb(255,255,255);
+  border-color: rgb(255,255,255);
+  border-width: 2px;
+  border-radius: 10px;
+}
+.inverse .btn-outline-primary:hover {
   background-color: transparent;
   color: rgb(200,200,200);
   border-color: rgb(200,200,200);
