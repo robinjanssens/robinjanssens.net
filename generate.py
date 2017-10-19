@@ -1,7 +1,7 @@
 import codecs
 import markdown
 
-inputFileName = "wishlist.md"
+inputFileName = "content/wishlist.md"
 outputFileName = "wishlist.html"
 
 inputFile = codecs.open(inputFileName, mode="r", encoding="utf-8")
