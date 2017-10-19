@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "title": "Wish list",
+      "type": "markdown",
+      "src": "./content/wishlist.md"
+    },
+    {
+      "title": "Terms of Service",
+      "type": "html",
+      "src": "./content/terms.html"
+    },
+    {
+      "title": "Privacy Policy",
+      "type": "html",
+      "src": "./content/privacy.html"
+    }
+  ]
+}
