@@ -45,12 +45,12 @@ Tools
 - Manometer kit
 - Vacuum Pump
 - End Sleeves
-  - or [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/?ref=detview1&rt=detview1&rb=1)
-  - [Double End Sleeves Assortment](http://www.conrad.be/ce/nl/product/739873/Conrad-93014c620-Dubbel-adereindhulzen-assortiment-075-mm-25-mm-Wit-Geel-Rood-Blauw-200-stuks?ref=list)
+    - or [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/?ref=detview1&rt=detview1&rb=1)
+    - [Double End Sleeves Assortment](http://www.conrad.be/ce/nl/product/739873/Conrad-93014c620-Dubbel-adereindhulzen-assortiment-075-mm-25-mm-Wit-Geel-Rood-Blauw-200-stuks?ref=list)
 - Tape
-  - [Aluminium Tape](http://www.conrad.be/ce/nl/product/545738/3M-1436F-Zacht-aluminium-tape-l-x-b-50-m-x-50-mm-Zilver-Aluminium-Inhoud-1-rollen?ref=searchDetail)
-  - [Anti-slip Tape](http://www.conrad.be/ce/nl/product/545411/Conrad-Antislipband-l-x-b-10-m-x-50-mm-Zwart-PVC-Inhoud-1-rollen?ref=list)
-  - Copper Tape
+    - [Aluminium Tape](http://www.conrad.be/ce/nl/product/545738/3M-1436F-Zacht-aluminium-tape-l-x-b-50-m-x-50-mm-Zilver-Aluminium-Inhoud-1-rollen?ref=searchDetail)
+    - [Anti-slip Tape](http://www.conrad.be/ce/nl/product/545411/Conrad-Antislipband-l-x-b-10-m-x-50-mm-Zwart-PVC-Inhoud-1-rollen?ref=list)
+    - Copper Tape
 - Video Borescope / Endoscoop
 - Geiger Teller
 - [Pocketethernet](http://pockethernet.com/)
@@ -82,15 +82,15 @@ Electronics
 - ESR Meter
 - SWR Meter
 - Modules
-  - [Electric Imp](http://www.adafruit.com/products/1129)
-  - [Pixy CMUcam5](http://www.adafruit.com/product/1906)
-  - Blackberry Trackball Breakout
+    - [Electric Imp](http://www.adafruit.com/products/1129)
+    - [Pixy CMUcam5](http://www.adafruit.com/product/1906)
+    - Blackberry Trackball Breakout
 - Components
-  - [Toroidal Transformer 230 V -> 2 x 24 V 2 x 6,25 A 300 VA](http://www.conrad.be/ce/nl/product/710215/Ringkern-veiligheids-en-scheidingstransformator-230-V-2-x-24-V-2-x-625-A-300-VA-Block?ref=list)
-  - Diode Brug PDIP
-  - Female 5.5mm Jack
-  - Colored Jumpers
-  - Flatcable Connectors
+    - [Toroidal Transformer 230 V -> 2 x 24 V 2 x 6,25 A 300 VA](http://www.conrad.be/ce/nl/product/710215/Ringkern-veiligheids-en-scheidingstransformator-230-V-2-x-24-V-2-x-625-A-300-VA-Block?ref=list)
+    - Diode Brug PDIP
+    - Female 5.5mm Jack
+    - Colored Jumpers
+    - Flatcable Connectors
 
 Electricity
 -----------
@@ -99,9 +99,9 @@ Electricity
 - Schakelaar
 - Gele verlengkabel 10m
 - WAGO Connectors
-  - [WAGO 222-412 25x](http://www.conrad.be/ce/nl/product/730024/WAGO-222-412-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-2-Inhoud-25-stuks-Grijs-Oranje?ref=list)
-  - [WAGO 222-413 15x](http://www.conrad.be/ce/nl/product/730187/WAGO-222-413-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-3-Inhoud-15-stuks-Grijs-Oranje?ref=list)
-  - [WAGO 222-415 10x](http://www.conrad.be/ce/nl/product/730201/WAGO-222-415-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-5-Inhoud-10-stuks-Grijs-Oranje?ref=list)
+    - [WAGO 222-412 25x](http://www.conrad.be/ce/nl/product/730024/WAGO-222-412-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-2-Inhoud-25-stuks-Grijs-Oranje?ref=list)
+    - [WAGO 222-413 15x](http://www.conrad.be/ce/nl/product/730187/WAGO-222-413-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-3-Inhoud-15-stuks-Grijs-Oranje?ref=list)
+    - [WAGO 222-415 10x](http://www.conrad.be/ce/nl/product/730201/WAGO-222-415-Verbindingsklem-flexibel-008-4-mm-massief-008-25-mm-Aantal-polen-5-Inhoud-10-stuks-Grijs-Oranje?ref=list)
 
 Chemistry
 ---------
@@ -136,21 +136,21 @@ Chemistry
 - Hydrometer
 - [PH-strips](https://www.brouwland.com/nl/onze-producten/meten-labo/ph-meting/d/ph-papier-1-12-universeel-20-strips)
 - Equipment
-  - [Bunsenbrander](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/distillatie-apparatuur/d/bunsenbrander-propaan-butaan)
-  - Big Rice Cooker
-  - Centrifuge
+    - [Bunsenbrander](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/distillatie-apparatuur/d/bunsenbrander-propaan-butaan)
+    - Big Rice Cooker
+    - Centrifuge
 - Glaswerk
-  - Petrischalen
-  - [6 * Proefbuis](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuis-160x16-mm-schroefdop)
-  - [Proefbuisklem hout](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuisklem-hout)
-  - Bekerglas
-  - Magneetroerder
-  - Buret
-  - Horlogeglas
-  - Roerstaaf
+    - Petrischalen
+    - [6 * Proefbuis](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuis-160x16-mm-schroefdop)
+    - [Proefbuisklem hout](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuisklem-hout)
+    - Bekerglas
+    - Magneetroerder
+    - Buret
+    - Horlogeglas
+    - Roerstaaf
 - Protective Clothing
-  - Nitrile Gloves
-  - Gas Masker
+    - Nitrile Gloves
+    - Gas Masker
 
 Logistics
 ---------
@@ -164,14 +164,14 @@ Transport
 Clothing
 --------
 - T-shirts (small)
-  - [The Pirate Bay](http://www.bytelove.com/the-pirate-bay-premium-bamboo/a-4547/)
-  - [Piratbyrån](http://www.bytelove.com/piratbyran-premium-bamboo/a-3606/)
-  - [HackADay Classic Tee](http://store.hackaday.com/products/hackaday-classic-tee)
-  - [Science Works](http://shop.xkcd.com/products/science-works)
-  - [Try Science](http://shop.xkcd.com/products/try-science)
-  - [Sysadmin](http://shop.xkcd.com/products/sysadmin)
-  - [EEVblog Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
-  - [EEVblog Negative Feedback T-Shirt BLACK](https://teespring.com/nl/NegativeFeedbackBlack)
+    - [The Pirate Bay](http://www.bytelove.com/the-pirate-bay-premium-bamboo/a-4547/)
+    - [Piratbyrån](http://www.bytelove.com/piratbyran-premium-bamboo/a-3606/)
+    - [HackADay Classic Tee](http://store.hackaday.com/products/hackaday-classic-tee)
+    - [Science Works](http://shop.xkcd.com/products/science-works)
+    - [Try Science](http://shop.xkcd.com/products/try-science)
+    - [Sysadmin](http://shop.xkcd.com/products/sysadmin)
+    - [EEVblog Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
+    - [EEVblog Negative Feedback T-Shirt BLACK](https://teespring.com/nl/NegativeFeedbackBlack)
 
 Boeken
 ------
