@@ -17,6 +17,7 @@ for page in data['pages']:
     content = inputFile.read()
     if page['type'] == 'markdown':
         htmlContent = markdown.markdown(content)
+        htmlContent = htmlContent.replace('<a ', '<a target="_blank" ')    # add _blank target to hyperlinks
     elif page['type'] == 'html':
         htmlContent = content
     else:
