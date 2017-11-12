@@ -34,18 +34,14 @@ Tools
 - [Bolt Cutter](http://www.conrad.be/ce/nl/product/816609/Kniptang-Knipex-71-72-610-Knipex-71-72-610?ref=list)
 - Wood Screws Pozidriv (Woodtex)
 - C-clamps
-- [Mini Spring Clamps](http://www.conrad.be/ce/nl/product/468225/6-microfix-mini-veerklemmen-Wolfcraft-3420000?ref=list)
-- Vijlen
-- Ontbraam Set
-- [Winkelhaak](http://www.conrad.be/ce/nl/product/1379276/Helios-Preisser-0375408-Beenlengte-150-x-100-mm?ref=list)
-- [Zwaaihaak](http://www.conrad.be/ce/nl/product/1379311/Helios-Preisser-0396432-Beenlengte-200-mm-mm?ref=list)
+- [Spring Clamps](http://www.conrad.be/ce/nl/product/468324/FZ-60-Veerklem-Wolfcraft-3631000)
 - Slagletters
 - Warmte Camera
 - Big Air Compressor
 - Manometer kit
 - Vacuum Pump
 - End Sleeves
-    - or [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/?ref=detview1&rt=detview1&rb=1)
+    - [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/?ref=detview1&rt=detview1&rb=1)
     - [Double End Sleeves Assortment](http://www.conrad.be/ce/nl/product/739873/Conrad-93014c620-Dubbel-adereindhulzen-assortiment-075-mm-25-mm-Wit-Geel-Rood-Blauw-200-stuks?ref=list)
 - Tape
     - [Aluminium Tape](http://www.conrad.be/ce/nl/product/545738/3M-1436F-Zacht-aluminium-tape-l-x-b-50-m-x-50-mm-Zilver-Aluminium-Inhoud-1-rollen?ref=searchDetail)
@@ -61,7 +57,7 @@ Electronics
 -----------
 - Lipo Charger
 - Static Surface Charge Meter
-- Solderingstation ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ)) or ([Weller WS 81](http://www.conrad.be/ce/nl/product/811810/Weller-WS-81-Analoog-Soldeerstation-95-W-150-tot-450-C?queryFromSuggest=true))
+- ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ))
 - Portable Soldering Iron [TS100](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731112906&SearchText=TS100) + [TS-D24 (chisel tip)](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731113300&SearchText=TS-D24)
 - Desoldeerstation
 - Solder paste dispenser [I-Extruder](https://www.i-extruder.com/en/i-extruder-dispenser/2-i-extruder-solder-paste-dispenser.html)
@@ -154,8 +150,8 @@ Chemistry
 
 Logistics
 ---------
-- 3 * [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/) (transparant)
-- 3 * [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329) (zwart)
+- 3 * [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/)
+- 3 * [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329)
 
 Transport
 ---------
