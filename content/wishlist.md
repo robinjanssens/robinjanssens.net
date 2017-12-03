@@ -101,40 +101,42 @@ Electricity
 
 Chemistry
 ---------
-- Conformal Coating
-- Corrosion X
-- Tetrahydrofuran
-- Methanol
-- Ethanol
-- Ether
-- Hydrogen peroxide
-- Hydrochloric acid
-- Nitric Acid
-- Maiszetmmeel
-- [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
-- [the Odin (CRISPR starter kit)](http://www.the-odin.com/diy-crispr-kit/)
-- Natriumwaterstofcarbonaat (AKA Dubbelkoolzure Soda)
-- Kaliumwaterstoftartraat (AKA Wijnsteen)
-- Koper(II)sulfaat
-- Propyleenglycol
-- Paraffin Oil
-- PCB Ontwikkelaar
-- Pipetman (set)
-- Etsbak
-- Etsmiddel
-- [Lab Jack](https://www.aliexpress.com/w/wholesale-lab-jack.html?spm=2114.search0104.0.0.A2PyJG&site=glo&groupsort=1&SortType=total_tranpro_desc&g=y&SearchText=lab+jack)
-- [Closed Safety Goggles](http://www.conrad.be/ce/nl/product/888279/3M-goggles-2890SA-DE272934089?ref=list)
-- [Dust Mask](http://www.conrad.be/ce/nl/product/831216/3M-6200M-3M-Halfmasker-6200-M-Filterklassebeschermingsgraad-Afhankelijk-van-het-filter-1-stuks)
-- [Dust Filter for 3M mask](http://www.conrad.be/ce/nl/product/831229/3M-7100015050-Inlegfilter-2125-Filterklassebeschermingsgraad-P2-10-paar)
-- [Full Face Dust Mask](http://www.conrad.be/ce/nl/product/831217/3M-3M-Maskerfilter-6800-M-6800M-1-stuks)
-- [Chemical Filter for 3M mask](http://www.conrad.be/ce/nl/product/831223/3M-6059-Gas-en-combifilter-Filterklassebeschermingsgraad-ABEK1-4-paar)
-- Molecular Model Kit
-- Hydrometer
-- [PH-strips](https://www.brouwland.com/nl/onze-producten/meten-labo/ph-meting/d/ph-papier-1-12-universeel-20-strips)
+- Liquids
+    - Conformal Coating
+    - Corrosion X
+    - Tetrahydrofuran
+    - Methanol
+    - Ethanol
+    - Ether
+    - Hydrogen peroxide
+    - Hydrochloric acid
+    - Nitric Acid
+    - Iron(III) Chloride
+    - PCB Positive Developer
+    - Propylene Glycol
+    - Paraffin Oil
+- Solids
+    - Maiszetmmeel
+    - [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
+    - Sodium Bicarbonate
+    - Potassium Bitartrate
+    - Copper(II) Sulfate
+- Gasses
+    - Carbon Dioxide (CO2)
+    - Acetylene
+    - Oxygen
+    - Helium
 - Equipment
+    - Pipetman (set)
     - [Bunsenbrander](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/distillatie-apparatuur/d/bunsenbrander-propaan-butaan)
     - Big Rice Cooker
     - Centrifuge
+    - [Lab Jack](https://www.aliexpress.com/w/wholesale-lab-jack.html?spm=2114.search0104.0.0.A2PyJG&site=glo&groupsort=1&SortType=total_tranpro_desc&g=y&SearchText=lab+jack)
+    - Molecular Model Kit
+    - Hydrometer
+    - [PH-strips](https://www.brouwland.com/nl/onze-producten/meten-labo/ph-meting/d/ph-papier-1-12-universeel-20-strips)
+    - Etching Tank
+    - [the Odin (CRISPR starter kit)](http://www.the-odin.com/diy-crispr-kit/)
 - Glaswerk
     - Petrischalen
     - [6 * Proefbuis](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuis-160x16-mm-schroefdop)
@@ -146,7 +148,11 @@ Chemistry
     - Roerstaaf
 - Protective Clothing
     - Nitrile Gloves
-    - Gas Masker
+    - [Closed Safety Goggles](http://www.conrad.be/ce/nl/product/888279/3M-goggles-2890SA-DE272934089?ref=list)
+    - [Dust Mask](http://www.conrad.be/ce/nl/product/831216/3M-6200M-3M-Halfmasker-6200-M-Filterklassebeschermingsgraad-Afhankelijk-van-het-filter-1-stuks)
+    - [Dust Filter for 3M mask](http://www.conrad.be/ce/nl/product/831229/3M-7100015050-Inlegfilter-2125-Filterklassebeschermingsgraad-P2-10-paar)
+    - [Full Face Dust Mask](http://www.conrad.be/ce/nl/product/831217/3M-3M-Maskerfilter-6800-M-6800M-1-stuks)
+    - [Chemical Filter for 3M mask](http://www.conrad.be/ce/nl/product/831223/3M-6059-Gas-en-combifilter-Filterklassebeschermingsgraad-ABEK1-4-paar)
 
 Logistics
 ---------
