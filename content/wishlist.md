@@ -178,6 +178,7 @@ Clothing
 Boeken
 ------
 - ["The Essential Guide to Electronics in Shenzhen" by Andrew 'Bunnie' Huang](https://www.adafruit.com/product/3189)
+- ["The 3D Printing Handbook: Technologies, design and applications" by Ben Redwood, Filemon Schöffer, Brian Garret](https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/)
 - ["Hooked" by Nir Eyal](https://www.bol.com/nl/p/hooked/9200000028456583)
 - ["Rich Dad Poor Dad" by Robert Kiyosaki](https://www.bol.com/nl/p/rich-dad-poor-dad/1001004011061350)
 - ["Business Adventures" by John Brooks](http://www.bol.com/nl/p/business-adventures/9200000031172284)
