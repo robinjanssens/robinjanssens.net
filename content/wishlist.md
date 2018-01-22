@@ -19,6 +19,7 @@ Computer & Network
 Tools
 -----
 - Laser Cutter
+- Vinyl Cutter
 - [IKEA Fixa schroevendraaier](http://www.ikea.com/be/nl/catalog/products/20214199/)
 - Kompas
 - Slijpschijf
@@ -40,14 +41,17 @@ Tools
 - Big Air Compressor
 - Manometer kit
 - Vacuum Pump
+- Parafilm
+- Black Shrink Wrap
+- Marking Blue
+- Ultrasonic Cleaner
 - End Sleeves
-    - [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/?ref=detview1&rt=detview1&rb=1)
-    - [Double End Sleeves Assortment](http://www.conrad.be/ce/nl/product/739873/Conrad-93014c620-Dubbel-adereindhulzen-assortiment-075-mm-25-mm-Wit-Geel-Rood-Blauw-200-stuks?ref=list)
+    - [Big Single End Sleeves Assortment](http://www.conrad.be/ce/nl/product/737030/Conrad-737030-Adereindhuls-assortiment-05-mm-10-mm-Oranje-Wit-Geel-Rood-Blauw-Groen-Zwart-Wit-2700-stuks/)
+    - [Double End Sleeves Assortment](http://www.conrad.be/ce/nl/product/739873/Conrad-93014c620-Dubbel-adereindhulzen-assortiment-075-mm-25-mm-Wit-Geel-Rood-Blauw-200-stuks)
 - Tape
     - [Aluminium Tape](http://www.conrad.be/ce/nl/product/545738/3M-1436F-Zacht-aluminium-tape-l-x-b-50-m-x-50-mm-Zilver-Aluminium-Inhoud-1-rollen?ref=searchDetail)
     - [Anti-slip Tape](http://www.conrad.be/ce/nl/product/545411/Conrad-Antislipband-l-x-b-10-m-x-50-mm-Zwart-PVC-Inhoud-1-rollen?ref=list)
     - Copper Tape
-- Video Borescope / Endoscoop
 - Geiger Teller
 - [Pocketethernet](http://pockethernet.com/)
 - [Big Cable Stripper](http://www.conrad.be/ce/nl/product/1216144/CK-Stripper-Armouslice-12-tot-36-mm-SWA-kabels-T2250?ref=searchDetail)
@@ -60,6 +64,7 @@ Electronics
 - ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ))
 - Portable Soldering Iron [TS100](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731112906&SearchText=TS100) + [TS-D24 (chisel tip)](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731113300&SearchText=TS-D24)
 - Desoldeerstation
+- Soldering Pot
 - Solder paste dispenser [I-Extruder](https://www.i-extruder.com/en/i-extruder-dispenser/2-i-extruder-solder-paste-dispenser.html)
 - Vacuum Suction Pen
 - PCB Preheater (china)
@@ -116,7 +121,9 @@ Chemistry
     - PCB Positive Developer
     - Propylene Glycol
     - Paraffin Oil
+    - Methyl blauw
 - Solids
+    - Sodium tetraborate decahydrate (Borax)
     - Maiszetmmeel
     - [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
     - Sodium Bicarbonate
@@ -124,6 +131,7 @@ Chemistry
     - Copper(II) Sulfate
 - Gasses
     - Carbon Dioxide (CO2)
+    - Argon
     - Acetylene
     - Oxygen
     - Helium
@@ -157,8 +165,8 @@ Chemistry
 
 Logistics
 ---------
-- 3 * [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/)
-- 3 * [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329)
+- [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/)
+- [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329)
 
 Transport
 ---------
@@ -181,6 +189,7 @@ Boeken
 - ["The Essential Guide to Electronics in Shenzhen" by Andrew 'Bunnie' Huang](https://www.adafruit.com/product/3189)
 - ["The 3D Printing Handbook: Technologies, design and applications" by Ben Redwood, Filemon Schöffer, Brian Garret](https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/)
 - ["Hooked" by Nir Eyal](https://www.bol.com/nl/p/hooked/9200000028456583)
+- ["The Art of War" by Sun Tzu](https://www.bol.com/nl/f/the-art-of-war/30038375/)
 - ["Rich Dad Poor Dad" by Robert Kiyosaki](https://www.bol.com/nl/p/rich-dad-poor-dad/1001004011061350)
 - ["Business Adventures" by John Brooks](http://www.bol.com/nl/p/business-adventures/9200000031172284)
 - ["Just for Fun: The Story of an Accidental Revolutionary" by Linus Torvalds and David Diamond](http://www.bol.com/nl/p/just-for-fun/1001004001678032)
