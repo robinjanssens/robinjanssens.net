@@ -3,7 +3,7 @@ Wish list
 
 Computer & Network
 ------------------
-- [3.5" HDD 3TB](http://www.alternate.be/Seagate/Desktop-HDD-3-TB-harde-schijf/html/product/965387?tk=7&lk=6074)
+- [LaCie Rugged USB-C 2 TB](https://www.bol.com/nl/p/lacie-rugged-usb-c-externe-harde-schijf-2-tb/9200000073615026/)
 - [HDMI IPS LED monitor](http://www.computerstore.be/category/123675/monitoren.html?723=8221,10972&95912=83435&92=74414&3764=11523)
 - [Aeon Labs Z-Wave USB Adapter](https://www.kiwi-electronics.nl/aeon-labs-z-wave-usb-adapter-met-batterij-z-stick-series-2?gclid=CjwKEAjw-IOwBRD1wrTC27fSjFISJABUDZ17Q4bu3Ypk0OOYo12X3emB-fJBo_45BJjTr1wvIMCaPRoC78Tw_wcB)
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
