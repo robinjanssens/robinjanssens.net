@@ -190,6 +190,7 @@ Boeken
 - ["The 3D Printing Handbook: Technologies, design and applications" by Ben Redwood, Filemon Schöffer, Brian Garret](https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/)
 - ["Hooked" by Nir Eyal](https://www.bol.com/nl/p/hooked/9200000028456583)
 - ["The Art of War" by Sun Tzu](https://www.bol.com/nl/f/the-art-of-war/30038375/)
+- ["The Dictator's Handbook" by Bruce Bueno De Mesquita](https://www.bol.com/nl/p/the-dictator-s-handbook/9200000002084757/)
 - ["Rich Dad Poor Dad" by Robert Kiyosaki](https://www.bol.com/nl/p/rich-dad-poor-dad/1001004011061350)
 - ["Business Adventures" by John Brooks](http://www.bol.com/nl/p/business-adventures/9200000031172284)
 - ["Just for Fun: The Story of an Accidental Revolutionary" by Linus Torvalds and David Diamond](http://www.bol.com/nl/p/just-for-fun/1001004001678032)
