@@ -175,10 +175,6 @@ Transport
 Clothing
 --------
 - T-shirts (small)
-    - [The Pirate Bay](http://www.bytelove.com/the-pirate-bay-premium-bamboo/a-4547/)
-    - [Piratbyrån](http://www.bytelove.com/piratbyran-premium-bamboo/a-3606/)
-    - [HackADay Classic Tee](http://store.hackaday.com/products/hackaday-classic-tee)
-    - [Science Works](http://shop.xkcd.com/products/science-works)
     - [Try Science](http://shop.xkcd.com/products/try-science)
     - [Sysadmin](http://shop.xkcd.com/products/sysadmin)
     - [EEVblog Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
