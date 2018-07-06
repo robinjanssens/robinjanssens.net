@@ -174,11 +174,15 @@ Transport
 
 Clothing
 --------
-- T-shirts (small)
-    - [Try Science](http://shop.xkcd.com/products/try-science)
-    - [Sysadmin](http://shop.xkcd.com/products/sysadmin)
-    - [EEVblog Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
-    - [EEVblog Negative Feedback T-Shirt BLACK](https://teespring.com/nl/NegativeFeedbackBlack)
+- T-shirts (medium)
+    - [XKCD - Try Science](http://shop.xkcd.com/products/try-science)
+    - [XKCD - Sysadmin](http://shop.xkcd.com/products/sysadmin)
+    - [EEVblog - Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
+    - [EEVblog - Negative Feedback T-Shirt BLACK](https://teespring.com/nl/NegativeFeedbackBlack)
+    - [Vi Hart - Tau Day Shirt Unisex](https://store.dftba.com/products/tau-day-shirt?variant=12197084790859)
+    - [Wendover Productions T-Shirt](https://standard.tv/collections/wendover-productions/products/copy-of-wendover-productions-t-shirt?variant=7603624968247)
+    - [Periodic Videos - The Professor Shirt](https://store.dftba.com/collections/periodic-videos/products/the-professor-shirt?variant=797928247)
+    - [CGP Grey Logo T-Shirt](https://standard.tv/collections/cgp-grey/products/cgp-grey-logo-shirt?variant=7550069243959)
 
 Boeken
 ------
