@@ -1,4 +1,10 @@
-Wish list
+---
+layout: page
+title: Wish List
+permalink: /wishlist/
+---
+
+Wish List
 =========
 
 Computer & Network
