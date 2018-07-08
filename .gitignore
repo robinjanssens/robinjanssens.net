@@ -1,4 +1,11 @@
 ------------------------------
+Jekyll specific files
+------------------------------
+_site
+.sass-cache
+.jekyll-metadata
+
+------------------------------
 OS generated files
 ------------------------------
 .DS_Store
