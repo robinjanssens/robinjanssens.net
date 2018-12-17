@@ -9,18 +9,15 @@ Wish List
 
 Computer & Network
 ------------------
-- [LaCie Rugged USB-C 2 TB](https://www.bol.com/nl/p/lacie-rugged-usb-c-externe-harde-schijf-2-tb/9200000073615026/)
-- [HDMI IPS LED monitor](http://www.computerstore.be/category/123675/monitoren.html?723=8221,10972&95912=83435&92=74414&3764=11523)
 - [Aeon Labs Z-Wave USB Adapter](https://www.kiwi-electronics.nl/aeon-labs-z-wave-usb-adapter-met-batterij-z-stick-series-2?gclid=CjwKEAjw-IOwBRD1wrTC27fSjFISJABUDZ17Q4bu3Ypk0OOYo12X3emB-fJBo_45BJjTr1wvIMCaPRoC78Tw_wcB)
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
 - Projector
 - UPS
-- KVM Switch
-- [Phono Preamp](http://www.conrad.be/ce/nl/product/943642/Vivanco-versterker-zwart?ref=searchDetail)
 - [Leap Motion Controller](http://store-eur.leapmotion.com/)
 - IP Camera
 - [Presenter](https://tweakers.net/pricewatch/300943/logitech-r400-wireless-presenter.html)
 - [Crazyflie 2](https://www.antratek.be/crazyflie-2-nano-quadcopter)
+- USB-C to Micro USB Cable
 
 Tools
 -----
@@ -58,29 +55,29 @@ Tools
     - [Aluminium Tape](http://www.conrad.be/ce/nl/product/545738/3M-1436F-Zacht-aluminium-tape-l-x-b-50-m-x-50-mm-Zilver-Aluminium-Inhoud-1-rollen?ref=searchDetail)
     - [Anti-slip Tape](http://www.conrad.be/ce/nl/product/545411/Conrad-Antislipband-l-x-b-10-m-x-50-mm-Zwart-PVC-Inhoud-1-rollen?ref=list)
     - Copper Tape
-- Geiger Teller
+- Geiger Counter
 - [Pocketethernet](http://pockethernet.com/)
 - [Big Cable Stripper](http://www.conrad.be/ce/nl/product/1216144/CK-Stripper-Armouslice-12-tot-36-mm-SWA-kabels-T2250?ref=searchDetail)
-- Maatlepels
+- Measuring Spoons
+- Small Red Bull Fridge
+- [Eakins Microscope](https://www.aliexpress.com/item/Autofocus-SONY-IMX290-HDMI-TF-Video-Auto-Focus-Industry-Microscope-Camera-180X-C-Mount-Lens-Stand/32854389430.html?aff_platform=link-c-tool&cpt=1545055385566&sk=b7ycSav2&aff_trace_key=29ad46cb9f26474fb755ec900773be15-1545055385566-06693-b7ycSav2&terminal_id=c80d880073564e619680e5d47563b570)
+- - [Røde VideoMic Go](https://tweakers.net/pricewatch/466669/rode-videomic-go.html)
 
 Electronics
 -----------
-- Lipo Charger
 - Static Surface Charge Meter
 - ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ))
 - Portable Soldering Iron [TS100](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731112906&SearchText=TS100) + [TS-D24 (chisel tip)](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731113300&SearchText=TS-D24)
 - Desoldeerstation
 - Soldering Pot
-- Solder paste dispenser [I-Extruder](https://www.i-extruder.com/en/i-extruder-dispenser/2-i-extruder-solder-paste-dispenser.html)
-- Vacuum Suction Pen
-- PCB Preheater (china)
+- Solder paste dispenser
+- PCB Preheater
 - [PCBgrip](https://pcbgrip.com/)
 - [Grounding Point 1Mohm](http://www.conrad.be/ce/nl/product/189441/Aardingsbox-BJZ-C-197-2542-Veiligheidsweerstand-1-M?ref=list)
 - [ESD Mat](http://www.conrad.be/ce/nl/product/1268311/Conrad-l-x-b-119-cm-x-59-cm-Grijs-Zwart?ref=list)
 - [High Voltage Differential Probes](http://www.eevblog.com/product/hvp70/)
 - [I-prober 520](http://www.aimtti.com/product-category/current-probes/aim-i-prober-520)
 - Functiegenerator
-- [LimeSDR Mini](https://www.crowdsupply.com/lime-micro/limesdr-mini)
 - Active Load ([Re:load Pro](https://www.tindie.com/products/arachnidlabs/reload-pro/))
 - Bare Conductive's Electric Paint
 - Variabele Transformator
@@ -89,7 +86,6 @@ Electronics
 - ESR Meter
 - SWR Meter
 - Modules
-    - [4* TMC2130 stepper drivers](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20180102105714&SearchText=tmc2130)
     - [Electric Imp](http://www.adafruit.com/products/1129)
     - [Pixy CMUcam5](http://www.adafruit.com/product/1906)
     - Blackberry Trackball Breakout
@@ -142,7 +138,7 @@ Chemistry
     - Oxygen
     - Helium
 - Equipment
-    - Pipetman (set)
+    - Pipetor (set)
     - [Bunsenbrander](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/distillatie-apparatuur/d/bunsenbrander-propaan-butaan)
     - Big Rice Cooker
     - Centrifuge
@@ -173,6 +169,7 @@ Logistics
 ---------
 - [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/)
 - [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329)
+- Sortimo T-BOXX
 
 Transport
 ---------
@@ -183,8 +180,6 @@ Clothing
 - T-shirts (medium)
     - [XKCD - Try Science](http://shop.xkcd.com/products/try-science)
     - [XKCD - Sysadmin](http://shop.xkcd.com/products/sysadmin)
-    - [EEVblog - Negative Feedback T-Shirt](https://teespring.com/negativefeedbackAsh)
-    - [EEVblog - Negative Feedback T-Shirt BLACK](https://teespring.com/nl/NegativeFeedbackBlack)
     - [Vi Hart - Tau Day Shirt Unisex](https://store.dftba.com/products/tau-day-shirt?variant=12197084790859)
     - [Wendover Productions T-Shirt](https://standard.tv/collections/wendover-productions/products/copy-of-wendover-productions-t-shirt?variant=7603624968247)
     - [Periodic Videos - The Professor Shirt](https://store.dftba.com/collections/periodic-videos/products/the-professor-shirt?variant=797928247)
@@ -196,6 +191,10 @@ Boeken
 - ["The 3D Printing Handbook: Technologies, design and applications" by Ben Redwood, Filemon Schöffer, Brian Garret](https://www.bol.com/nl/p/the-3d-printing-handbook-technologies-design-and-applications/9200000082228285/)
 - ["Hooked" by Nir Eyal](https://www.bol.com/nl/p/hooked/9200000028456583)
 - ["The Art of War" by Sun Tzu](https://www.bol.com/nl/f/the-art-of-war/30038375/)
+- [“The Everything Store - Jeff Bezos and the Age of Amazon” by Brad Stone](https://www.bol.com/nl/p/the-everything-store/9200000027333442/)
+- [“Elon Musk - Tesla, SpaceX, and the Quest for a Fantastic Future” by Ashlee Vance](https://www.bol.com/nl/p/elon-musk/9200000051106789/)
+- ["Conscious Capitalism: Liberating the Heroic Spirit of Business" by John Mackey and Rajendra Sisodia](https://www.bol.com/nl/p/conscious-capitalism/9200000019463093/)
+- ["Michael O’Leary - A Life in Full Flight" by Alan Ruddock](https://www.bol.com/nl/f/michael-o-leary/30293213/)
 - ["The Dictator's Handbook" by Bruce Bueno De Mesquita](https://www.bol.com/nl/p/the-dictator-s-handbook/9200000002084757/)
 - ["Rich Dad Poor Dad" by Robert Kiyosaki](https://www.bol.com/nl/p/rich-dad-poor-dad/1001004011061350)
 - ["Business Adventures" by John Brooks](http://www.bol.com/nl/p/business-adventures/9200000031172284)
