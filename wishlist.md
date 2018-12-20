@@ -9,7 +9,6 @@ Wish List
 
 Computer & Network
 ------------------
-- [Aeon Labs Z-Wave USB Adapter](https://www.kiwi-electronics.nl/aeon-labs-z-wave-usb-adapter-met-batterij-z-stick-series-2?gclid=CjwKEAjw-IOwBRD1wrTC27fSjFISJABUDZ17Q4bu3Ypk0OOYo12X3emB-fJBo_45BJjTr1wvIMCaPRoC78Tw_wcB)
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
 - Projector
 - UPS
@@ -23,7 +22,6 @@ Tools
 -----
 - Laser Cutter
 - Vinyl Cutter
-- [IKEA Fixa schroevendraaier](http://www.ikea.com/be/nl/catalog/products/20214199/)
 - Kompas
 - Slijpschijf
 - Kolomboormachine
@@ -36,7 +34,7 @@ Tools
 - Snijbrander
 - Bankschroef
 - [Bolt Cutter](http://www.conrad.be/ce/nl/product/816609/Kniptang-Knipex-71-72-610-Knipex-71-72-610?ref=list)
-- Wood Screws Pozidriv (Woodtex)
+- Wood Screws Torx
 - C-clamps
 - [Spring Clamps](http://www.conrad.be/ce/nl/product/468324/FZ-60-Veerklem-Wolfcraft-3631000)
 - Slagletters
@@ -61,7 +59,7 @@ Tools
 - Measuring Spoons
 - Small Red Bull Fridge
 - [Eakins Microscope](https://www.aliexpress.com/item/Autofocus-SONY-IMX290-HDMI-TF-Video-Auto-Focus-Industry-Microscope-Camera-180X-C-Mount-Lens-Stand/32854389430.html?aff_platform=link-c-tool&cpt=1545055385566&sk=b7ycSav2&aff_trace_key=29ad46cb9f26474fb755ec900773be15-1545055385566-06693-b7ycSav2&terminal_id=c80d880073564e619680e5d47563b570)
-- - [Røde VideoMic Go](https://tweakers.net/pricewatch/466669/rode-videomic-go.html)
+- [Røde VideoMic Go](https://tweakers.net/pricewatch/466669/rode-videomic-go.html)
 
 Electronics
 -----------
@@ -85,16 +83,7 @@ Electronics
 - RLC Meter
 - ESR Meter
 - SWR Meter
-- Modules
-    - [Electric Imp](http://www.adafruit.com/products/1129)
-    - [Pixy CMUcam5](http://www.adafruit.com/product/1906)
-    - Blackberry Trackball Breakout
-- Components
-    - [Toroidal Transformer 230 V -> 2 x 24 V 2 x 6,25 A 300 VA](http://www.conrad.be/ce/nl/product/710215/Ringkern-veiligheids-en-scheidingstransformator-230-V-2-x-24-V-2-x-625-A-300-VA-Block?ref=list)
-    - Diode Brug PDIP
-    - Female 5.5mm Jack
-    - Colored Jumpers
-    - Flatcable Connectors
+- [Toroidal Transformer 230 V -> 2 x 24 V 2 x 6,25 A 300 VA](http://www.conrad.be/ce/nl/product/710215/Ringkern-veiligheids-en-scheidingstransformator-230-V-2-x-24-V-2-x-625-A-300-VA-Block?ref=list)
 
 Electricity
 -----------
@@ -126,7 +115,7 @@ Chemistry
     - Methyl blauw
 - Solids
     - Sodium tetraborate decahydrate (Borax)
-    - Maiszetmmeel
+    - Maiszetmeel
     - [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
     - Sodium Bicarbonate
     - Potassium Bitartrate
@@ -158,7 +147,6 @@ Chemistry
     - Horlogeglas
     - Roerstaaf
 - Protective Clothing
-    - Nitrile Gloves
     - [Closed Safety Goggles](http://www.conrad.be/ce/nl/product/888279/3M-goggles-2890SA-DE272934089?ref=list)
     - [Dust Mask](http://www.conrad.be/ce/nl/product/831216/3M-6200M-3M-Halfmasker-6200-M-Filterklassebeschermingsgraad-Afhankelijk-van-het-filter-1-stuks)
     - [Dust Filter for 3M mask](http://www.conrad.be/ce/nl/product/831229/3M-7100015050-Inlegfilter-2125-Filterklassebeschermingsgraad-P2-10-paar)
