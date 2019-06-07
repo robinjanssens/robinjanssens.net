@@ -3,7 +3,7 @@ html {
   min-height: 100%;
 }
 body {
-  font-family: 'Allerta', sans-serif; /* Use 'Allerta' font as default font */
+  font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font as default font */
   padding-top: 3.5rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
   padding-bottom: 21.5rem; /* Margin bottom by footer height 12rem */
 }
@@ -12,7 +12,7 @@ section {
     padding-bottom: 5rem;
 }
 article {
-  font-family: 'Open Sans', sans-serif; /* Use 'Open Sans' font for articles */
+  font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font for articles */
   padding-top: 4rem;
   padding-bottom: 5rem;
 }
@@ -105,12 +105,12 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 1rem;
 }
 .footer h2 {
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
 .social a {
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.4rem;
   text-decoration: none;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 1rem;
 }
 .footer-links a {
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   text-decoration: none;
   padding-right: 2rem;
 }
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* change the background color */
 .navbar-custom {
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   background-color: rgb(255,255,255);
   box-shadow: 0px 10px 10px rgba(180,180,180,0.2);
 }
