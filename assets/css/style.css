@@ -20,10 +20,6 @@ article {
 h1, h2, h3, h4, h5, h6, p {
   color: rgb(128,128,128);
 }
-.linen-background {
-  background-image: url(../images/linen-light.jpg);
-  background-repeat: repeat;
-}
 .inverse {
   background-color: rgb(128,128,128);
 }
