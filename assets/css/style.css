@@ -17,7 +17,7 @@ article {
   padding-bottom: 5rem;
 }
 h1, h2, h3, h4, h5, h6, p {
-  color: rgb(0,0,0); /* Black headers */
+  color: rgb(0,0,0); /* Black */
 }
 .inverse {
   background-color: rgb(128,128,128);
@@ -118,13 +118,14 @@ h1, h2, h3, h4, h5, h6, p {
   bottom: 0;
   width: 100%;
   min-height: 21.5rem;      /* Set the fixed height of the footer here */
-  background-color: rgb(32,32,32);
-  color: rgb(128,128,128);
+  background-color: rgb(240,240,240);
+  color: rgb(96,96,96);
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .footer h2 {
   font-family: 'Noto Sans', sans-serif;
+  color: rgb(96,96,96);
   padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
@@ -135,7 +136,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .social a:link,
 .social a:visited {
-  color: rgb(128,128,128);
+  color: rgb(96,96,96);
 }
 .social a:hover,
 .social a:active {
@@ -154,7 +155,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .footer-links a:link,
 .footer-links a:visited {
-  color: rgb(128,128,128);
+  color: rgb(96,96,96);
 }
 .footer-links a:hover,
 .footer-links a:active {
