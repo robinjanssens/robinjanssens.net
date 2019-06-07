@@ -34,6 +34,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 100%;
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
+    margin-left: 2rem; /* Prevent border by rotation */
+    margin-right: 2rem; /* Prevent border by rotation */
     color: rgb(128,128,128);
 }
 @media (min-width: 576px) {
