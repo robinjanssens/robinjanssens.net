@@ -25,6 +25,7 @@ github_username:  robinjanssens
 markdown: kramdown
 sass:
     sass_dir: _sass
+    style: compressed
 plugins:
   - jekyll-feed
 
