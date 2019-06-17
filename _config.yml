@@ -23,6 +23,8 @@ github_username:  robinjanssens
 
 # Build settings
 markdown: kramdown
+sass:
+    sass_dir: _sass
 plugins:
   - jekyll-feed
 
