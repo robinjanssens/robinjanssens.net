@@ -119,6 +119,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .social {
 
+  .feather {
+    vertical-align: middle;
+  }
+
   a {
     font-family: 'Noto Sans', sans-serif;
     font-size: 1.4rem;
@@ -137,6 +141,8 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
 }
+
+
 
 .footer {
   position: absolute;
