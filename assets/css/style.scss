@@ -1,6 +1,10 @@
 ---
 ---
 
+$footer-bg-color: #eceff1; /* Blue Gray 50  */
+$footer-text-color: #455a64; /* Blue Gray 700 */
+$footer-hover-color: $footer-text-color * 2;
+
 html {
   position: relative;
   min-height: 100%;
@@ -130,11 +134,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
   a:link,
   a:visited {
-    color: rgb(96,96,96);
+    color: $footer-text-color;
   }
   a:hover,
   a:active {
-    color: rgb(192,192,192);
+    color: $footer-hover-color;
   }
   .gap {
     padding-left: 1rem;
@@ -149,14 +153,14 @@ h1, h2, h3, h4, h5, h6, p {
   bottom: 0;
   width: 100%;
   min-height: 21.5rem;      /* Set the fixed height of the footer here */
-  background-color: rgb(240,240,240);
-  color: rgb(96,96,96);
+  background-color: $footer-bg-color;
+  color: $footer-text-color;
   padding-top: 1rem;
   padding-bottom: 1rem;
 
-  .footer h2 {
+  h2 {
     font-family: 'Noto Sans', sans-serif;
-    color: rgb(96,96,96);
+    color: $footer-text-color;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
   }
@@ -173,11 +177,11 @@ h1, h2, h3, h4, h5, h6, p {
   }
   a:link,
   a:visited {
-    color: rgb(96,96,96);
+    color: $footer-text-color;
   }
   a:hover,
   a:active {
-    color: rgb(192,192,192);
+    color: $footer-hover-color;
   }
 
 }
