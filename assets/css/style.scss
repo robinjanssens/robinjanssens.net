@@ -1,10 +1,6 @@
 ---
 ---
 
-$footer-bg-color: #eceff1; /* Blue Gray 50  */
-$footer-text-color: #455a64; /* Blue Gray 700 */
-$footer-hover-color: $footer-text-color * 2;
-
 html {
   position: relative;
   min-height: 100%;
@@ -121,71 +117,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding-bottom: 1rem;
 }
 
-.social {
-
-  .feather {
-    vertical-align: middle;
-  }
-
-  a {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.4rem;
-    text-decoration: none;
-  }
-  a:link,
-  a:visited {
-    color: $footer-text-color;
-  }
-  a:hover,
-  a:active {
-    color: $footer-hover-color;
-  }
-  .gap {
-    padding-left: 1rem;
-  }
-
-}
-
-
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 21.5rem;      /* Set the fixed height of the footer here */
-  background-color: $footer-bg-color;
-  color: $footer-text-color;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-
-  h2 {
-    font-family: 'Noto Sans', sans-serif;
-    color: $footer-text-color;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-  }
-
-}
-
-.footer-links {
-  padding-top: 1rem;
-
-  a {
-    font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
-    padding-right: 2rem;
-  }
-  a:link,
-  a:visited {
-    color: $footer-text-color;
-  }
-  a:hover,
-  a:active {
-    color: $footer-hover-color;
-  }
-
-}
-
 /* change the background color */
 .navbar-custom {
   font-family: 'Noto Sans', sans-serif;
@@ -219,3 +150,5 @@ h1, h2, h3, h4, h5, h6, p {
   }
 
 }
+
+@import "footer";
