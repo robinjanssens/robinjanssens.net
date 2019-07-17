@@ -112,10 +112,10 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 1rem; /* Keep horizontal space between cards */
   padding: 1rem; /* In every direction 1rem space between content and border */
   box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
+  .img-circle {
+    padding-bottom: 1rem;
+  }
 }
 .img-circle {
   border-radius: 50%; /* Make it a circle */
-}
-.card .img-circle {
-  padding-bottom: 1rem;
 }
