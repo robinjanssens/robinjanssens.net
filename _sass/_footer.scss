@@ -43,7 +43,7 @@ $footer-hover-color: $footer-text-color * 2;
 .social {
   .feather { /* Icons */
     vertical-align: middle;
-    padding-right: 1rem; /* Gap between icon and label */
+    margin-right: 1rem; /* Gap between icon and label */
   }
   a {
     font-family: 'Noto Sans', sans-serif;
