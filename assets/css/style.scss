@@ -8,7 +8,7 @@ html {
 body {
   font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font as default font */
   padding-top: 3.5rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  padding-bottom: 21.5rem; /* Margin bottom by footer height 12rem */
+  padding-bottom: $footer-height; /* Margin bottom by footer height 12rem */
 }
 section {
     padding-top: 5rem;

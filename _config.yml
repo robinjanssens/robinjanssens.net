@@ -18,8 +18,6 @@ email: robin@robinjanssens.net
 description: Portfolio website of Robin Janssens.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://robinjanssens.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: robin_janssens
-github_username:  robinjanssens
 
 # Build settings
 markdown: kramdown
