@@ -42,10 +42,10 @@ twitter:
   username: robin_janssens # The site's Twitter handle
   card: summary # The site's default card type
 
-#facebook:
-#  app_id:     # a Facebook app ID for Facebook insights
+facebook:
+  app_id: 1325580724265474 # a Facebook app ID for Facebook insights
 #  publisher:  # a Facebook page URL or ID of the publishing entity
-#  admins:     # a Facebook user ID for domain insights linked to a personal account
+  admins: 1617965107    # a Facebook user ID for domain insights linked to a personal account
 
 # Build settings
 markdown: kramdown
