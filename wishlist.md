@@ -4,7 +4,7 @@ permalink: /wishlist/
 
 title: Wish List # The title of the post, page, or document
 description: My wish list of things I could use in and around the lab # A short description of the page's content
-image:  # URL to an image associated with the post, page, or document (e.g., /assets/page-pic.jpg)
+image: /assets/images/default_thumbnail.png # URL to an image associated with the post, page, or document (e.g., /assets/page-pic.jpg)
 author: Robin Janssens # Page-, post-, or document-specific author information (see Advanced usage)
 lang: en_US # Page-, post-, or document-specific language information
 ---
