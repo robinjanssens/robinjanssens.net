@@ -33,11 +33,22 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
+      type: "pages"
     values:
       layout: "page"
       image: "/assets/images/default_thumbnail.png"
       author: "Robin Janssens"
       type: "article"
+  -
+    scope:
+      path: "pages" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"
+      image: "/assets/images/default_thumbnail.png"
+      author: "Robin Janssens"
+      type: "article"
+      permalink: "/:basename/" # flatten everything in pages folder to its own folder in root. workaround to be able to use absolute path (does also affect assets in path)
 
 # google_site_verification:
 # webmaster_verifications:
