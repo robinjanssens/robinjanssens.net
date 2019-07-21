@@ -2,7 +2,8 @@
 $footer-height: 21.5rem;
 $footer-bg-color: #eceff1; /* Blue Gray 50  */
 $footer-text-color: #455a64; /* Blue Gray 700 */
-$footer-hover-color: $footer-text-color * 2;
+// $footer-hover-color: $footer-text-color * 2; /* Deprecated */
+$footer-hover-color: change-color($footer-text-color, $lightness: lightness($footer-text-color) * 2);
 
 .footer {
   position: absolute;

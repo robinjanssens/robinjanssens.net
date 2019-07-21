@@ -1,7 +1,8 @@
 
 $navbar-bg-color: #ffffff;
 $navbar-text-color: #808080; /* rgb(128,128,128) */
-$navbar-hover-color: $navbar-text-color * 1.5;
+// $navbar-hover-color: $navbar-text-color * 1.5; /* Deprecated */
+$navbar-hover-color: change-color($navbar-text-color, $lightness: lightness($navbar-text-color) * 1.5);
 
 .navbar-custom {
   font-family: 'Noto Sans', sans-serif;
