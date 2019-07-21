@@ -29,6 +29,16 @@ social:
     - https://www.linkedin.com/in/robin-janssens-4140b1a0/
 lang: en_US
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "page"
+      image: "/assets/images/default_thumbnail.png"
+      author: "Robin Janssens"
+      type: "article"
+
 # google_site_verification:
 # webmaster_verifications:
   # google: 1234
@@ -37,11 +47,12 @@ lang: en_US
   # yandex: 1234
   # baidu: 1234
 
-
+# for twitter cards
 twitter:
   username: robin_janssens # The site's Twitter handle
   card: summary # The site's default card type
 
+# for ogp
 facebook:
   app_id: 1325580724265474 # a Facebook app ID for Facebook insights
 #  publisher:  # a Facebook page URL or ID of the publishing entity
