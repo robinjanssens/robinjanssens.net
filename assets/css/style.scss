@@ -1,8 +1,11 @@
 ---
 ---
 
+$inverse-bg-color: #808080; /* 0x80 = 128 */
+
 @import "footer";
 @import "navbar";
+@import "buttons";
 
 html {
   position: relative;
@@ -26,10 +29,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: rgb(0,0,0); /* Black */
 }
 .inverse {
-  background-color: rgb(128,128,128);
+  background-color: #808080; /* 0x80 = 128 */
 
   h1, h2, h3, h4, h5, h6, p {
-    color: rgb(255,255,255); /* White */
+    color: #ffffff; /* White */
   }
 }
 .graffiti {
@@ -83,32 +86,10 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
-.btn-outline-primary {
-  color: rgb(128,128,128);
-  border-color: rgb(128,128,128);
-  border-width: 2px;
-  border-radius: 10px;
-}
-.btn-outline-primary:hover {
-  background-color: transparent;
-  color: rgb(200,200,200);
-  border-color: rgb(200,200,200);
-}
-.inverse .btn-outline-primary {
-  color: rgb(255,255,255);
-  border-color: rgb(255,255,255);
-  border-width: 2px;
-  border-radius: 10px;
-}
-.inverse .btn-outline-primary:hover {
-  background-color: transparent;
-  color: rgb(200,200,200);
-  border-color: rgb(200,200,200);
-}
-
 .card {
   margin: 0 auto; /* Center cards */
   float: none;    /* Center cards */
+  width: 22em;
   margin-bottom: 1rem; /* Keep horizontal space between cards */
   padding: 1rem; /* In every direction 1rem space between content and border */
   box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
