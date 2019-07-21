@@ -11,5 +11,13 @@ author: Robin Janssens # Page-, post-, or document-specific author information (
 lang: en_US # Page-, post-, or document-specific language information
 type: website
 
-introduction: Hi, I'm Robin and welcome on my website. I will use this platform as a hub to share stuff with the world.
+menu_items:
+  -
+    href: "#links"
+    label: "Links"
+  -
+    href: "#portfolio"
+    label: "Portfolio"
+
+introduction: "Hi, I'm Robin and welcome on my website. I will use this platform as a hub to share stuff with the world."
 ---
