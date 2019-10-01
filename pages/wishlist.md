@@ -198,3 +198,4 @@ Boeken
 - ["Superintelligence" by Nick Bostrom](https://www.bol.com/nl/p/superintelligence/9200000035845425)
 - ["The Second Machine Age" by Erik Brynjolfsson](https://www.bol.com/nl/p/the-second-machine-age-work-progress-and-prosperity-in-a-time-of-brilliant-technologies/9200000034957993)
 - ["Life 3.0" by Max Tegmark](https://www.bol.com/nl/p/life-3-0/9200000075399379)
+- ["Building Scientific Apparatus" by John H. Moore](https://www.bol.com/nl/p/building-scientific-apparatus/1001004006233653/)
