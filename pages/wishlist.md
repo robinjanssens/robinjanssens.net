@@ -163,6 +163,7 @@ Logistics
 Transport
 ---------
 - [Tesla Model S](http://www.teslamotors.com/models)
+- [Xiaomi M365](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Fp%2Fxiaomi-m365-elektrische-e-step-eu-versie-met-2-reserve-banden-zwart-electric-scooter%2F9200000096480685%2F&name=Xiaomi%20M365%20Elektrische%20E-Step)
 
 Clothing
 --------
