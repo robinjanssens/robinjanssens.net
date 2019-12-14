@@ -199,3 +199,4 @@ Boeken
 - ["Life 3.0" by Max Tegmark](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Flife-3-0%2F9200000074627651%2F&name=Life%203.0%2C%20Max%20Tegmark)
 - ["Building Scientific Apparatus" by John H. Moore](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fbuilding-scientific-apparatus%2F35318196%2F&name=Building%20Scientific%20Apparatus%2C%20John%20H.%20Moore)
 - ["The Idea Factory" by Jon Gertner](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fthe-idea-factory%2F37493882%2F&name=The%20Idea%20Factory%2C%20Jon%20Gertner)
+- ["The Art of Electronics" by Paul Horowtz](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fthe-art-of-electronics%2F34493290%2F&name=The%20Art%20of%20Electronics)
