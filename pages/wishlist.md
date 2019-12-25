@@ -77,6 +77,7 @@ Electronics
 - [High Voltage Differential Probes](http://www.eevblog.com/product/hvp70/)
 - [I-prober 520](http://www.aimtti.com/product-category/current-probes/aim-i-prober-520)
 - Functiegenerator
+- Rubidium Frequency Standard
 - Active Load ([Re:load Pro](https://www.tindie.com/products/arachnidlabs/reload-pro/))
 - Bare Conductive's Electric Paint
 - Variabele Transformator
