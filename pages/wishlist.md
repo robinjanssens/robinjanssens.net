@@ -12,11 +12,7 @@ Wish List
 Computer & Network
 ------------------
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
-- Projector
-- UPS
-- [Leap Motion Controller](http://store-eur.leapmotion.com/)
 - IP Camera
-- [Crazyflie 2](https://www.antratek.be/crazyflie-2-nano-quadcopter)
 - USB-C to Micro USB Cable
 
 Tools
@@ -30,19 +26,21 @@ Tools
 - [Drilling and Milling Stand](http://www.conrad.be/ce/nl/product/826064/Boor-en-freesbank-BFB-2000-Proxxon-Micromot-20-000?ref=searchDetail)
 - [Cross Tabel](http://www.conrad.be/ce/nl/product/826095/Proxxon-Micromot-KT-150-20-150-Kruistafel/?ref=bundles&rt=bundles&rb=1)
 - Klokboren Staal
-- [Lasapparaat](http://www.conrad.be/ce/nl/product/821135/Einhell-1546040-Lasstroom-55-160-A-Diameter-elektrode-2-4-mm)
-- Lasbril
-- Snijbrander
+- Welding
+    - Elektrode-Lasapparaat
+    - Welding Electrodes
+    - Lasbril
 - Bankschroef
 - [Bolt Cutter](http://www.conrad.be/ce/nl/product/816609/Kniptang-Knipex-71-72-610-Knipex-71-72-610?ref=list)
 - Wood Screws Torx
 - C-clamps
 - [Spring Clamps](http://www.conrad.be/ce/nl/product/468324/FZ-60-Veerklem-Wolfcraft-3631000)
 - Slagletters
+- [Soft Jaw Pliers](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5259&pn=SJP1)
+- Screw Pliers
 - Warmte Camera
 - Big Air Compressor
 - Manometer kit
-- Vacuum Pump
 - Parafilm
 - Black Shrink Wrap
 - Marking Blue
@@ -55,18 +53,14 @@ Tools
     - [Anti-slip Tape](http://www.conrad.be/ce/nl/product/545411/Conrad-Antislipband-l-x-b-10-m-x-50-mm-Zwart-PVC-Inhoud-1-rollen?ref=list)
     - Copper Tape
 - Geiger Counter
-- [Pocketethernet](http://pockethernet.com/)
-- [Big Cable Stripper](http://www.conrad.be/ce/nl/product/1216144/CK-Stripper-Armouslice-12-tot-36-mm-SWA-kabels-T2250?ref=searchDetail)
 - Measuring Spoons
-- Small Red Bull Fridge
 - [Eakins Microscope](https://www.aliexpress.com/item/Autofocus-SONY-IMX290-HDMI-TF-Video-Auto-Focus-Industry-Microscope-Camera-180X-C-Mount-Lens-Stand/32854389430.html?aff_platform=link-c-tool&cpt=1545055385566&sk=b7ycSav2&aff_trace_key=29ad46cb9f26474fb755ec900773be15-1545055385566-06693-b7ycSav2&terminal_id=c80d880073564e619680e5d47563b570)
-- [Røde VideoMic Go](https://tweakers.net/pricewatch/466669/rode-videomic-go.html)
 
 Electronics
 -----------
 - Static Surface Charge Meter
 - ([Hakko FX-888D](http://www.batterfly.com/shop/hakko_fx-888d?gclid=Cj0KEQjw75yxBRD78uqEnuG-5vcBEiQAQbaxSO2nWifkuYwvIPIYgtHW8KWX9PL9C2OzzYKqlNxlTs0aAj498P8HAQ))
-- Portable Soldering Iron [TS100](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731112906&SearchText=TS100) + [TS-D24 (chisel tip)](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20170731113300&SearchText=TS-D24)
+- [Portable Soldering Iron TS80](https://www.aliexpress.com/item/4000764937427.html)
 - Desoldeerstation
 - Soldering Pot
 - Solder paste dispenser
@@ -121,7 +115,6 @@ Chemistry
     - [Champagne Yeast](https://www.brouwland.com/nl/onze-producten/wijnbereiding/gisten/korrelgisten-kitzinger/d/korrelgist-kitz-champagne-vr-50-l)
     - Sodium Bicarbonate
     - Potassium Bitartrate
-    - Copper(II) Sulfate
 - Gasses
     - Carbon Dioxide (CO2)
     - Argon
@@ -138,8 +131,7 @@ Chemistry
     - Hydrometer
     - [PH-strips](https://www.brouwland.com/nl/onze-producten/meten-labo/ph-meting/d/ph-papier-1-12-universeel-20-strips)
     - Etching Tank
-    - [the Odin (CRISPR starter kit)](http://www.the-odin.com/diy-crispr-kit/)
-- Glaswerk
+- Glassware
     - Petrischalen
     - [6 * Proefbuis](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuis-160x16-mm-schroefdop)
     - [Proefbuisklem hout](https://www.brouwland.com/nl/onze-producten/meten-labo/glaswerk/proefbuizen-en-toebehoren/d/proefbuisklem-hout)
@@ -157,9 +149,8 @@ Chemistry
 
 Logistics
 ---------
-- [SAMLA 5L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S49871676) +	[Deksel](http://www.ikea.com/be/nl/catalog/products/10110300/)
-- [SAMLA 11L](http://www.ikea.com/be/nl/catalog/products/S49871676/#/S59903016)	+ [Deksel](http://www.ikea.com/be/nl/catalog/products/50110299/#/50206329)
 - Sortimo T-BOXX
+- [STAS MINIRAIL™ ALU SET](https://www.ophangen.com/catalog/product/view/id/1286/s/stas-minirailtm-alu-set/category/463/)
 
 Transport
 ---------
