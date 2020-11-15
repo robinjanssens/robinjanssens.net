@@ -70,6 +70,8 @@ Electronics
 - [ESD Mat](http://www.conrad.be/ce/nl/product/1268311/Conrad-l-x-b-119-cm-x-59-cm-Grijs-Zwart?ref=list)
 - [High Voltage Differential Probes](http://www.eevblog.com/product/hvp70/)
 - [I-prober 520](http://www.aimtti.com/product-category/current-probes/aim-i-prober-520)
+- [Probe Master 8000 Series Test Leads](https://probemaster.com/8000-series-test-leads-only/)
+- [Probe Master SMD Grippers](https://probemaster.com/8175-smd-grippers-10-piece-kit/)
 - Functiegenerator
 - Rubidium Frequency Standard
 - Active Load ([Re:load Pro](https://www.tindie.com/products/arachnidlabs/reload-pro/))
@@ -163,9 +165,6 @@ Clothing
     - [XKCD - Try Science](http://shop.xkcd.com/products/try-science)
     - [XKCD - Sysadmin](http://shop.xkcd.com/products/sysadmin)
     - [Vi Hart - Tau Day Shirt Unisex](https://store.dftba.com/products/tau-day-shirt?variant=12197084790859)
-    - [Wendover Productions T-Shirt](https://standard.tv/collections/wendover-productions/products/copy-of-wendover-productions-t-shirt?variant=7603624968247)
-    - [Periodic Videos - The Professor Shirt](https://store.dftba.com/collections/periodic-videos/products/the-professor-shirt?variant=797928247)
-    - [CGP Grey Logo T-Shirt](https://standard.tv/collections/cgp-grey/products/cgp-grey-logo-shirt?variant=7550069243959)
 
 Boeken
 ------
