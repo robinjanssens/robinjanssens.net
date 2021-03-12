@@ -14,6 +14,7 @@ Computer & Network
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
 - IP Camera
 - USB-C to Micro USB Cable
+- [MikroTik wAP LR8](https://mikrotik.com/product/wap_lr8_kit)
 
 Tools
 -----
@@ -36,6 +37,8 @@ Tools
 - C-clamps
 - [Spring Clamps](http://www.conrad.be/ce/nl/product/468324/FZ-60-Veerklem-Wolfcraft-3631000)
 - Slagletters
+- Knpiex Wrench Pliers (86 06 250)
+- Knipex Wrench Pliers Plastic Jaws (86 09 250)
 - [Soft Jaw Pliers](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5259&pn=SJP1)
 - Screw Pliers
 - Warmte Camera
@@ -66,6 +69,7 @@ Electronics
 - Solder paste dispenser
 - PCB Preheater
 - [PCBgrip](https://pcbgrip.com/)
+- [PCBite](https://sensepeek.com/pcbite-kit-with-2x-100mhz-and-4x-sp10-handsfree-probes)
 - [Grounding Point 1Mohm](http://www.conrad.be/ce/nl/product/189441/Aardingsbox-BJZ-C-197-2542-Veiligheidsweerstand-1-M?ref=list)
 - [ESD Mat](http://www.conrad.be/ce/nl/product/1268311/Conrad-l-x-b-119-cm-x-59-cm-Grijs-Zwart?ref=list)
 - [High Voltage Differential Probes](http://www.eevblog.com/product/hvp70/)
@@ -192,3 +196,7 @@ Boeken
 - ["Building Scientific Apparatus" by John H. Moore](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fbuilding-scientific-apparatus%2F35318196%2F&name=Building%20Scientific%20Apparatus%2C%20John%20H.%20Moore)
 - ["The Idea Factory" by Jon Gertner](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fthe-idea-factory%2F37493882%2F&name=The%20Idea%20Factory%2C%20Jon%20Gertner)
 - ["The Art of Electronics" by Paul Horowtz](https://partner.bol.com/click/click?p=2&t=url&s=1033787&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fbe%2Ff%2Fthe-art-of-electronics%2F34493290%2F&name=The%20Art%20of%20Electronics)
+- ["Thinking, Fast and Slow" by Daniel Kahneman](https://www.bol.com/nl/p/thinking-fast-and-slow/9200000002011762/)
+- "High Above" by Chris Forrester
+- "Even Higher" by Chris Forrester
+- "Beyond Frontiers" by Chris Forrester
