@@ -83,12 +83,19 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+#   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude:
   - README.md
+
+# overrides your excluded items configuration and the default include array ([".htaccess"])
+# include:
+#   - .htaccess

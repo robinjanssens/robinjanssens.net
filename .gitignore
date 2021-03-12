@@ -3,6 +3,7 @@ Jekyll specific files
 ------------------------------
 _site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 
 ------------------------------
