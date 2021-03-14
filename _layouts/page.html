@@ -50,7 +50,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" integrity="sha384-PDjg2ZdS3khPzd53i18+7tzB32JVQfFMrTXYo21RqPgUmEVAPwIhxOUF/8sP79CS" crossorigin="anonymous"></script>
     <script src="/assets/js/cookieconsent.config.js"></script>
     <script src="/assets/js/smoothscroll.js"></script>
-    <script src="/assets/js/analytics.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63691259-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-63691259-1');
+    </script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
