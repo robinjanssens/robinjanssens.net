@@ -32,8 +32,8 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# Security fix for CVE-2020-14001
-gem "kramdown", ">= 2.3.0"
+# Security fix for CVE-2020-14001 (>= 2.3.0) and CVE-2021-28834 (>= 2.3.1)
+gem "kramdown", ">= 2.3.1"
 
 # Necessary to run 'jekyll serve'
 gem "webrick", "~> 1.7"
