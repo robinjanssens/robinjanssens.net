@@ -37,3 +37,6 @@ gem "kramdown", ">= 2.3.1"
 
 # Necessary to run 'jekyll serve'
 gem "webrick", "~> 1.7"
+
+# Security fix for CVE-2021-28965 (>= 3.2.5)
+gem "rexml", ">= 3.2.5"
