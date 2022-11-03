@@ -94,6 +94,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 exclude:
+  - .gitignore
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - README.md
 
 # overrides your excluded items configuration and the default include array ([".htaccess"])
