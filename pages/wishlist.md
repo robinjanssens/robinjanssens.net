@@ -9,6 +9,9 @@ lang: en_US # Page-, post-, or document-specific language information
 Wish List
 =========
 
+## Novalty Items
+- [Solar card deck](https://www.thespacetechie.com/the-solar-deck/)
+
 Computer & Network
 ------------------
 - [Dect Phone (needs to be compatible with "eventphone.de" network)](http://www.eventphone.de/wiki/index.php/DECT_Phone_Compatibility_List)
@@ -200,3 +203,5 @@ Boeken
 - "High Above" by Chris Forrester
 - "Even Higher" by Chris Forrester
 - "Beyond Frontiers" by Chris Forrester
+- ["A Mind for Numbers" by Barbara Oakley](https://www.bol.com/nl/f/a-mind-for-numbers/9200000021703499/)
+- ["Freakonomics" by Steven D Levitt"](https://www.bol.com/nl/f/freakonomics/30202460/)
