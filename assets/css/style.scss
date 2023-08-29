@@ -1,7 +1,8 @@
 ---
 ---
 
-$inverse-bg-color: #808080; /* 0x80 = 128 */
+$vibrant-blue: #0022ee;
+$text-color: #303030;
 
 @import "footer";
 @import "navbar";
@@ -16,6 +17,9 @@ body {
   padding-top: 3.5rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
   padding-bottom: $footer-height; /* Margin bottom by footer height 12rem */
 }
+hr {
+  border-top: 1px solid $vibrant-blue;
+}
 section {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -26,14 +30,7 @@ article {
   padding-bottom: 5rem;
 }
 h1, h2, h3, h4, h5, h6, p {
-  color: rgb(0,0,0); /* Black */
-}
-.inverse {
-  background-color: #808080; /* 0x80 = 128 */
-
-  h1, h2, h3, h4, h5, h6, p {
-    color: #ffffff; /* White */
-  }
+  color: $text-color;
 }
 .graffiti {
     font-family: 'Allerta Stencil', sans-serif;
@@ -45,7 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 2.5rem;
     margin-left: 2rem; /* Prevent border by rotation */
     margin-right: 2rem; /* Prevent border by rotation */
-    color: rgb(128,128,128);
+    color: $vibrant-blue;
 }
 @media (min-width: 576px) {
   .graffiti {
@@ -84,7 +81,7 @@ h1, h2, h3, h4, h5, h6, p {
 .introduction {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.2rem;
-  color: rgb(100,100,100);
+  color: $text-color;
   width: 100%;
   text-align: center;
 }
@@ -94,12 +91,8 @@ h1, h2, h3, h4, h5, h6, p {
   float: none;    /* Center cards */
   width: 22em;
   margin-bottom: 1rem; /* Keep horizontal space between cards */
-  padding: 1rem; /* In every direction 1rem space between content and border */
   box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
-  .img-circle {
-    padding-bottom: 1rem;
+  .card-block {
+    padding: 1rem; /* In every direction 1rem space between content and border */
   }
-}
-.img-circle {
-  border-radius: 50%; /* Make it a circle */
 }

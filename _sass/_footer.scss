@@ -1,8 +1,7 @@
 
 $footer-height: 21.5rem;
-$footer-bg-color: #eceff1; /* Blue Gray 50  */
-$footer-text-color: #455a64; /* Blue Gray 700 */
-// $footer-hover-color: $footer-text-color * 2; /* Deprecated */
+$footer-bg-color: #f6f6f6;  // light gray
+$footer-text-color: #606868;  // gray
 $footer-hover-color: change-color($footer-text-color, $lightness: lightness($footer-text-color) * 2);
 
 .footer {
@@ -13,7 +12,7 @@ $footer-hover-color: change-color($footer-text-color, $lightness: lightness($foo
   background-color: $footer-bg-color;
   color: $footer-text-color;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 
   h2 {
     font-family: 'Noto Sans', sans-serif;
@@ -21,42 +20,55 @@ $footer-hover-color: change-color($footer-text-color, $lightness: lightness($foo
     padding-top: 0.5rem;
     padding-bottom: 1rem;
   }
-}
 
-.footer-links {
-  padding-top: 1rem;
+  hr {
+    border-top: 1px solid #d8d8d8;
+  }
 
-  a {
-    font-family: 'Noto Sans', sans-serif;
-    text-decoration: none;
-    padding-right: 2rem;
+  .social {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+    .feather { /* Icons */
+      vertical-align: middle;
+      margin-right: 1rem; /* Gap between icon and label */
+    }
+    a {
+      font-family: 'Noto Sans', sans-serif;
+      font-size: 1.4rem;
+      text-decoration: none;
+    }
+    a:link,
+    a:visited {
+      color: $footer-text-color;
+    }
+    a:hover,
+    a:active {
+      color: $footer-hover-color;
+    }
   }
-  a:link,
-  a:visited {
-    color: $footer-text-color;
-  }
-  a:hover,
-  a:active {
-    color: $footer-hover-color;
-  }
-}
 
-.social {
-  .feather { /* Icons */
-    vertical-align: middle;
-    margin-right: 1rem; /* Gap between icon and label */
+  .footer-global {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    .brand {
+      font-family: 'Allerta', sans-serif;
+    }  
+
+    a {
+      font-family: 'Noto Sans', sans-serif;
+      text-decoration: none;
+      padding-right: 2rem;
+    }
+    a:link,
+    a:visited {
+      color: $footer-text-color;
+    }
+    a:hover,
+    a:active {
+      color: $footer-hover-color;
+    }
   }
-  a {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1.4rem;
-    text-decoration: none;
-  }
-  a:link,
-  a:visited {
-    color: $footer-text-color;
-  }
-  a:hover,
-  a:active {
-    color: $footer-hover-color;
-  }
+
 }

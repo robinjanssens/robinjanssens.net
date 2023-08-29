@@ -56,7 +56,7 @@
 
         {% for portfolio_card in site.data.portfolio_cards %}
           <div class="card">
-            <img class="card-img-top img-circle" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}">
+            <img class="card-img-top" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}">
             <div class="card-block">
               <h4 class="card-title">{{ portfolio_card.title }}</h4>
               <p class="card-text">{{ portfolio_card.description }}</p>
