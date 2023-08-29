@@ -13,9 +13,6 @@ type: website
 
 menu_items:
   -
-    href: "#links"
-    label: "Links"
-  -
     href: "#portfolio"
     label: "Portfolio"
 
