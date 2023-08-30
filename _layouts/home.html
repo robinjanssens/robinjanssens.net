@@ -60,7 +60,7 @@
             <div class="card-body">
               <h4 class="card-title">{{ portfolio_card.title }}</h4>
               <p class="card-text">{{ portfolio_card.description }}</p>
-              <a href="{{ portfolio_card.button.href }}" target="_blank" class="btn btn-outline-primary">{{ portfolio_card.button.label }}</a>
+              <a href="{{ portfolio_card.button.href }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">{{ portfolio_card.button.label }}</a>
             </div>
           </div>
         {% endfor %}
