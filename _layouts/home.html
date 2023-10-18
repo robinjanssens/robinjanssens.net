@@ -6,7 +6,7 @@
     {% include navbar.html %}
 
     <section id="introduction">
-      <div class="container">
+      <div class="container introduction">
         <div class="row">
           <span class="graffiti rotate-clockwise">ROBIN<br>JANSSENS</span>
         </div>
@@ -23,7 +23,7 @@
     </div>
 
     <section id="portfolio">
-      <div class="container">
+      <div class="container portfolio">
         <div class="row">
           <span class="graffiti rotate-counterclockwise">PORTFOLIO</span>
         </div>
@@ -40,6 +40,47 @@
           </div>
         {% endfor %}
 
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <hr>
+    </div>
+
+    <section id="publications">
+      <div class="container publications">
+        <div class="row">
+          <span class="graffiti rotate-clockwise">Publications</span>
+        </div>
+        <div class="row">
+        {% for publication in site.data.publications %}
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{ publication.title }}</h6>
+              <h6 class="authors">
+                {% for author in publication.authors %}
+                {{ author }}{% if forloop.last == false %}, {% endif %}
+                {% endfor %}
+              </h6>
+              <p class="journal">{{ publication.year }}, {{ publication.journal }}</p>
+
+              {% if publication.abstract %}
+              <div>
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAbstract{{ forloop.index0 }}" aria-expanded="false"><i data-feather="chevron-down" class="chevron"></i> Read abstract</button>
+                <div class="collapse" id="collapseAbstract{{ forloop.index0 }}">
+                    <p>{{ publication.abstract }}</p>
+                </div>
+              </div>
+              {% endif %}
+
+              {% if publication.url %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Go To Publishers Website"><i data-feather="external-link"></i></a>{% endif %}
+              {% if publication.pdf %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Download PDF Version"><i data-feather="download"></i></a>{% endif %}
+
+              <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Get BibTex">BibTex</a> -->
+            </div>
+          </div>
+        {% endfor %}
         </div>
       </div>
     </section>

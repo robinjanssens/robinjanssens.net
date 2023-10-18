@@ -3,6 +3,7 @@
 
 $vibrant-blue: #0022ee;
 $text-color: #303030;
+$light-text-color: #707070;
 
 @import "footer";
 @import "navbar";
@@ -86,10 +87,34 @@ h1, h2, h3, h4, h5, h6, p {
   text-align: center;
 }
 
-.card {
-  margin: 0 auto; /* Center cards */
-  float: none;    /* Center cards */
-  width: 22em;
-  margin-bottom: 1rem; /* Keep horizontal space between cards */
-  box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
+.portfolio{
+  .card {
+    margin: 0 auto; /* Center cards */
+    float: none;    /* Center cards */
+    width: 22em;
+    margin-bottom: 1rem; /* Keep horizontal space between cards */
+    box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.publications{
+  .card {
+    margin: 0.5rem auto;
+    width: 100%;
+    .authors, .journal {
+      color: $light-text-color;
+      margin-bottom: 0.5rem;
+    }
+    .btn{
+      margin-right: 0.5rem;
+      .chevron {
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+      }
+    }
+    .btn-outline-primary{
+      margin-top: 0.5rem;
+    }
+  }
 }

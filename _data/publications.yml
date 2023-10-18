@@ -1,0 +1,65 @@
+-
+  title: "AoA Estimates for LPWAN Technologies: Indoor Experimental Analysis"
+  authors:
+    - Noori BniLam
+    - Robin Janssens
+    - Jan Steckel
+    - Maarten Weyn
+  year: 2021
+  journal: "15th European Conference on Antennas and Propagation (EuCAP)"
+  abstract: "In this paper, we present an experimental analysis of the Angle of Arrival (AoA) estimation accuracy in an indoor environment. We utilized an AoA estimation system that is suitable for Low Power Wide Area Network (LPWAN) technologies. The AoA estimation system constituted 8 antenna elements that are distributed as Uniform Linear Array (ULA) antenna. Both Line-of-Sight (LoS) and Non-Line-of-Sight (NLoS) conditions were considered. The conventional beamformer, MUISC, Root MUSIC, ESPRIT and SAGE algorithms were employed to provide the AoA estimates. The experimental results reveal that the AoA estimation algorithms provide a very poor AoA estimation accuracy for signals that were originated within the endfire region of the ULA. Furthermore, the signals that were originated within the ULA broadside region have a maximum estimation error equals 10 and 15 degrees for the LoS and NLoS conditions, respectively."
+  url: https://ieeexplore.ieee.org/document/9411225
+  doi: https://doi.org/10.23919/EUCAP51087.2021.9411225
+  pdf: /publications/pdf/BniLam2021_AoA_Estimates_for_LPWAN_Technologies_Indoor_Experimental_Analysis.pdf
+-
+  title: "Object Detection To Enable Autonomous Vessels On European Inland Waterways"
+  authors:
+    - Mattias Billast
+    - Robin Janssens
+    - Astrid Vanneste
+    - Simon Vanneste
+    - Olivier Vasseur
+    - Ali Anwar
+    - Kevin Mets
+    - Tom De Schepper
+    - José Oramas
+    - Steven Latré
+    - Peter Hellinckx
+  year: 2022
+  journal: "48th Annual Conference of the IEEE Industrial Electronics Society"
+  abstract: "To enable autonomous vessels to operate on inland waterways, they need to detect, track and localize objects at close range to safely navigate. We deployed current deep learning techniques to detect and track these objects. As there are no large labeled datasets of European inland waterways, we used transfer learning to overcome the lack of data. By using preexisting similar datasets, we were able to significantly decrease the required amount of labeled data from the target distribution. Furthermore, we improved the mean Average Precision from 0.461 to 0.814 by using a limited number of labeled target data samples. We estimated the relative distance of the objects based on the generated bounding boxes. The information from the camera is then combined with LiDar data to generate a top-view map of the environment which is used as input for an object-avoidance control agent. All these methods can run in real-time on the vessel with an fps of 1.83 on a 2.7GHz vCPU."
+  url: https://ieeexplore.ieee.org/document/9969042
+  doi: https://doi.org/10.1109/IECON49645.2022.9969042
+  pdf:
+-
+  title: "Safety Aware Autonomous Path Planning Using Model Predictive Reinforcement Learning for Inland Waterways"
+  authors:
+    - Astrid Vanneste
+    - Simon Vanneste
+    - Olivier Vasseur
+    - Robin Janssens
+    - Mattias Billast
+    - Ali Anwar
+    - Kevin Mets
+    - Tom De Schepper
+    - Siegfried Mercelis
+    - Peter Hellinckx
+  year: 2022
+  journal: "48th Annual Conference of the IEEE Industrial Electronics Society"
+  abstract: "In recent years, interest in autonomous shipping in urban waterways has increased significantly due to the trend of keeping cars and trucks out of city centers. Classical approaches such as Frenet frame based planning and potential field navigation often require tuning of many configuration parameters and sometimes even require a different configuration depending on the situation. In this paper, we propose a novel path planning approach based on reinforcement learning called Model Predictive Reinforcement Learning (MPRL). MPRL calculates a series of waypoints for the vessel to follow. The environment is represented as an occupancy grid map, allowing us to deal with any shape of waterway and any number and shape of obstacles. We demonstrate our approach on two scenarios and compare the resulting path with path planning using a Frenet frame and path planning based on a proximal policy optimization (PPO) agent. Our results show that MPRL outperforms both baselines in both test scenarios. The PPO based approach was not able to reach the goal in either scenario while the Frenet frame approach failed in the scenario consisting of a corner with obstacles. MPRL was able to safely (collision free) navigate to the goal in both of the test scenarios."
+  url: https://ieeexplore.ieee.org/document/9968678
+  doi: https://doi.org/10.1109/IECON49645.2022.9968678
+  pdf:
+- 
+  title: "Rail Vehicle Detection Enabling Adaptive Device Free Crowd Size Estimation in Subway Stations"
+  authors:
+    - Robin Janssens
+    - Rafael Berkvens
+    - Peter Hellinckx
+    - Stijn Denis
+  year: 2023
+  journal: "Advances on P2P, Parallel, Grid, Cloud and Internet Computing"
+  abstract: "In order to enable reliable device free crowd size estimation at subway platforms during the stop and boarding time of underground rail transit systems, knowledge regarding whether or not a rail vehicle is present at the platform is crucial. To accommodate this need, we developed a low-cost battery-powered sensor node capable of detecting the presence of a rail vehicle in a subway station. We make use of two infrared laser-based time-of-flight (ToF) sensors installed at both the ingress and egress tunnel of a subway station. Due to this dual sensor approach, we are able to filter out and signal anomalous events such as a human walking past the sensor. We deployed the system at a subway station to benchmark its accuracy and found the implemented algorithms to be effective at filtering out false positives. However, recall rates are limited between 75 and 80% due to issues originating in the wireless communication stack. This demonstrates the feasibility of rail vehicle detection using ToF sensors in order to improve our device free crowd size estimation."
+  url: https://link.springer.com/chapter/10.1007/978-3-031-19945-5_26
+  doi: https://doi.org/10.1007/978-3-031-19945-5_26
+  pdf:
