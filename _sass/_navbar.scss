@@ -35,3 +35,10 @@ $navbar-hover-color: change-color($navbar-text-color, $lightness: lightness($nav
   }
 
 }
+
+
+.navbar {
+  .navbar-toggler {
+    color: $navbar-text-color;
+  }
+}
