@@ -28,10 +28,11 @@ $footer-hover-color: change-color($footer-text-color, $lightness: lightness($foo
   .social {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    
-    .feather { /* Icons */
+    .icon {
       vertical-align: middle;
       margin-right: 1rem; /* Gap between icon and label */
+      height: 24px;
+      width: 24px;
     }
     a {
       font-family: 'Noto Sans', sans-serif;
