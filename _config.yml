@@ -18,7 +18,7 @@ author: Robin Janssens
 email: robin@robinjanssens.net
 description: Website of Robin Janssens.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://robinjanssens.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://robinjanssens.net" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logo.png
 social:
   name: Robin Janssens
