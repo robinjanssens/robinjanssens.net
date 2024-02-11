@@ -103,3 +103,5 @@ exclude:
 # overrides your excluded items configuration and the default include array ([".htaccess"])
 # include:
 #   - .htaccess
+include:
+  - .well-known/

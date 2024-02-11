@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/robinjanssens
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://robinjanssens.net
+  * I am robinjanssens (https://keybase.io/robinjanssens) on keybase.
+  * I have a public key with fingerprint 15F7 B34F 423C D442 7041  FAB6 7E47 5634 A956 A106
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205afa2c8157199ce56220740efd87afa887d0b02e3aa5749fe5fa8c9f9aa99f010a",
+      "fingerprint": "15f7b34f423cd4427041fab67e475634a956a106",
+      "host": "keybase.io",
+      "key_id": "7e475634a956a106",
+      "kid": "010162f103f8aa6f48b408a50edf55dc4095cc6e190223f5061205e20563efe77e960a",
+      "uid": "d7491ced46704f02bcfdb1672426ad19",
+      "username": "robinjanssens"
+    },
+    "service": {
+      "hostname": "robinjanssens.net",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1707665950,
+  "expire_in": 157680000,
+  "prev": "e8a4806c40061c6ea5b6d1934f8dc675b54ce27e99dd09e011dda46f4b6466ef",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtUn1QFGUcPgzj7sIwSb4amlgZJxXo3b39PE2DDIvG+MqLUrz24104oLvr9g5E
+BgyZ5GOOBLUzPwrNDBAcJRCT+iMSiWRCBpmx4cMjRxxAZiiKpBuGepeJ/9yZnZ39
+/Z7n2ed59q1Z9YRG61eyw0Q2ms4+6dc7KWhgz9T5IkywSYWYsQjLhUsPmCdBxWnO
+tUiYEQM4AShe5gmRxSkG5zgRUjRBAIYEUJZYBq1YlpGAAAho4HmKITkZUmgocjLH
+8xwnAxzwWAwmW6xZ0GF3WKxOJItTMiMYSJkkDKJEkgQDSFzmBZqBJEPRBpLnKJrH
+AY2I2TZFZSBzAq/AOIsNzdCLecneY/DLvgFOEzIODDLL87RMsgIJWJ4CUJIpShJJ
+wFGiSEOcAwRhkClAq0EhumkDlCHDQI5e8u1akpNQLlyEEkkjpzIgBFGWBJxmCJKg
+eQnnVKACHVb+A4jQDptgsebwVkWBVgUrjsHQKt8iQrVdNc7jYHFW6EQqdofNaRNt
+eWid7XTaFaNKdxbaVXwBFMz/K5kRU0KNIkY+dCgWmxUz4ggpOi2qNM4AhqYpjgIx
+GNxntzig2aIiKIZmAbrU78B8EWlClidZQKM+UAOoD54SaJQH/RpWEmmGEihShARq
+g5MkwEGA45LEk6hPgSZpGsqYGu5Dqw2JE8gon4U0FUuWlXe6HBAr1leuMPhr/LSa
+yJAo/7WPWpMTtgwm2ON97cvHcOUK9Qxq9LrVy5Pkq0GLW9wYTLxV2TN00eQ/+un8
+jahnZ458n2rbOlfzzrHpCirYF1W1oaLH81LNSk12evtJb/aj+JznG10dVwqK14fU
+Ppivnl/lLutLmf51xDsX7k78pPN6YWf5Q+VO/90DZ+53GTm5vevI9rH+vbuO68em
+IrVvp/0z3l14tLk9829t5ftxtw6OODT1WuPwyM3cpxfYqj9pXWC20XNtKMMT3tSX
+p8R6IqxFPqLFo/vj64ovuurWTxlic5jSw2tee9g4HpYRGh1cl+qBe5WZoqFLh+39
+Qx8JSdfg3bKx55iwWJ/J9pNvTVb6vZabVz36ewG693a+fvp3qfZY9GfcxAnTaHDD
+d7ND5xd8SZei6ieFPe7S8gOrx+6PL57cN5fpXuvZtrU7ZaPXm3D9Lde7dR8PrEsI
+OrNtfP9o/+mGJPe54weryrwzw1Jf4MbAIHPi2EDguYn6+E2ZKy5/ab4yy1+oTnuh
+7a9nMjf85qnZ7Q7Rb/YGtLpuzDo1OU1hc3V2PtU3WOBOFHWkzIRHvNg6aGrOqXvj
+RMahEltTSn9zmNJdkvHVponPv73QOz18Owhr811eLD0V3dC7hyWt+gcBd0Dy8L9t
+xbmp8T88FZFcfvSVzqDBat1UUfr8wuQuJvT2Nz+uu1h76tWGnb/Md6QZB3cM79e4
+Fjre1A6Elrb8HONJqd6+e3Pqy2dbevIio/4D
+=K/ES
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robinjanssens
+
+==================================================================
+
