@@ -16,9 +16,9 @@ menu_items:
     href: "#portfolio"
     label: "Portfolio"
 
-introduction: "I started in my early life with a passion for creating and solving technical challenges. During high school I studied Electricity, Electronics, and Industrial ICT. Afterwards, I continued persuing a university degree in Applied Engineering Electronics-ICT at the Univerity of Antwerp.<br><br>
-I prefer to spend my spare time feeding my skill-collecting addiction to extend my capacity to offer solutions to challenging issues.<br><br>
-Are you looking to elevate your scientific or technological project to the next level?<br>
-Contact me below!"
+introduction: "From an early age, I have been driven by a passion for tackling and solving technical challenges. In high school, I immersed myself in Electricity, Electronics, and Industrial ICT, laying a foundation that inspired me to pursue a degree in Applied Engineering Electronics-ICT at the University of Antwerp.<br><br>
+In my spare time, I focus on learning new skills and expanding my expertise to solve complex problems.<br><br>
+If you're looking to take your scientific or technological project to the next level, let's connect!<br>
+Contact me below."
 
 ---
