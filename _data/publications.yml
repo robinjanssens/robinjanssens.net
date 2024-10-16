@@ -63,3 +63,18 @@
   url: https://link.springer.com/chapter/10.1007/978-3-031-19945-5_26
   doi: https://doi.org/10.1007/978-3-031-19945-5_26
   pdf:
+-
+  title: "Device-Free Crowd Size Estimation Using Wireless Sensing on Subway Platforms "
+  authors:
+    - Robin Janssens
+    - Erik Mannens
+    - Rafael Berkvens
+    - Stijn Denis
+  year: 2024
+  journal: "MDPI Applied Sciences"
+  volume: 14
+  number: 20
+  abstract: "Dense urban environments pose significant challenges when it comes to detecting and measuring crowd size due to their nature of being free-flow environments containing many dynamic factors. In this paper, we use a wireless sensor network (WSN) to perform device-free crowd size estimation in a subway station. Our sensing solution uses the change in attenuation of the communication links between sensor nodes to estimate the number of people standing on the platform. In order to achieve this, we use the same attenuation information coming from the WSN to detect the presence of a rail vehicle in the station and compensate for the channel fading caused by the introduced rail vehicle. We make use of two separately trained regression models depending on the presence or absence of a rail vehicle to estimate the people count. The detection of rail vehicles occurred with a near-perfect accuracy. When evaluating the resulting estimation model on our test set, we achieved a mean average error of 3.567 people, which is a significant improvement over 6.192 people when using a single regression model. This demonstrates that device-free sensing technologies can be successfully implemented in dynamic environments by implementing detection techniques and using different regression models depending on the environment’s state."
+  url: https://www.mdpi.com/2076-3417/14/20/9386
+  doi: https://doi.org/10.3390/app14209386
+  pdf: publications/pdf/applsci-14-09386.pdf
