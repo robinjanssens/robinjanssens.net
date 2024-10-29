@@ -9,6 +9,30 @@ $light-text-color: #707070;
 @import "navbar";
 @import "buttons";
 
+@font-face {
+  font-family: 'Allerta';
+  font-style: normal;
+  font-display: swap;  // use fallback until loaded
+  src: url('../../assets/typefaces/Allerta-Regular.woff2') format('woff2'),
+       url('../../assets/typefaces/Allerta-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Allerta Stencil';
+  font-style: normal;
+  font-display: swap;  // use fallback until loaded
+  src: url('../../assets/typefaces/AllertaStencil-Regular.woff2') format('woff2'),
+       url('../../assets/typefaces/AllertaStencil-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-display: swap;  // use fallback until loaded
+  src: url('../../assets/typefaces/NotoSans-Regular.woff2') format('woff2'),
+       url('../../assets/typefaces/NotoSans-Regular.ttf') format('truetype');
+}
+
 html {
   position: relative;
   min-height: 100%;
