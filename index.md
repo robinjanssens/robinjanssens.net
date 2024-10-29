@@ -13,8 +13,11 @@ type: website
 
 menu_items:
   -
-    href: "#portfolio"
     label: "Portfolio"
+    href: "#portfolio"
+  -
+    label: "Publications"
+    href: "#publications"
 
 introduction: "From an early age, I have been driven by a passion for tackling and solving technical challenges. In high school, I immersed myself in Electricity, Electronics, and Industrial ICT, laying a foundation that inspired me to pursue a degree in Applied Engineering Electronics-ICT at the University of Antwerp.<br><br>
 In my spare time, I focus on learning new skills and expanding my expertise to solve complex problems.<br><br>
