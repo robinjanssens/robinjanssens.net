@@ -1,6 +1,6 @@
 
 $button-color: $vibrant-blue;
-$button-hover-color: change-color($button-color, $lightness: lightness($button-color) * 1.75);
+$button-hover-color: adjust-color($button-color, $lightness: 35%);
 
 .btn-outline-primary {
   background-color: transparent;
