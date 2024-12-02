@@ -35,7 +35,7 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem "kramdown", ">= 2.3.1"
 
 # Necessary to run 'jekyll serve'
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"
 
 # Security fix for CVE-2021-28965 (>= 3.2.5)
 gem "rexml", ">= 3.2.5"
