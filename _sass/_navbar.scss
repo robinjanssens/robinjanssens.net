@@ -1,7 +1,9 @@
+@use 'sass:color';
+@use 'variables';
 
 $navbar-bg-color: #ffffff;  // white
-$navbar-text-color: $vibrant-blue;
-$navbar-hover-color: adjust-color($navbar-text-color, $lightness: 35%);
+$navbar-text-color: variables.$vibrant-blue;
+$navbar-hover-color: color.adjust($navbar-text-color, $lightness: 35%);
 
 .navbar-custom {
   font-family: 'Noto Sans', sans-serif;
@@ -35,7 +37,6 @@ $navbar-hover-color: adjust-color($navbar-text-color, $lightness: 35%);
   }
 
 }
-
 
 .navbar {
   .navbar-toggler {

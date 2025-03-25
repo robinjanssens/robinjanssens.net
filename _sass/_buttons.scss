@@ -1,16 +1,21 @@
+@use 'sass:color';
+@use 'variables';
 
-$button-color: $vibrant-blue;
-$button-hover-color: adjust-color($button-color, $lightness: 35%);
+$button-color: variables.$vibrant-blue;
+$button-hover-color: color.adjust($button-color, $lightness: 35%);
 
-.btn-outline-primary {
+@mixin btn-outline-primary {
   background-color: transparent;
   color: $button-color;
   border-color: $button-color;
   border-width: 2px;
   border-radius: 10px;
 }
+.btn-outline-primary {
+  @include btn-outline-primary;
+}
 .btn-outline-primary:hover {
-  @extend .btn-outline-primary;
+  @include btn-outline-primary;
   color: $button-hover-color;
   border-color: $button-hover-color;
 }

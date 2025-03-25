@@ -1,8 +1,9 @@
+@use 'sass:color';
 
 $footer-height: 21.5rem;
 $footer-bg-color: #f6f6f6;  // light gray
 $footer-text-color: #606868;  // gray
-$footer-hover-color: adjust-color($footer-text-color, $lightness: 25%);
+$footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
 
 .footer {
   position: absolute;

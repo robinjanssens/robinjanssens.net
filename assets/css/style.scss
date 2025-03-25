@@ -1,13 +1,10 @@
 ---
 ---
 
-$vibrant-blue: #0022ee;
-$text-color: #303030;
-$light-text-color: #707070;
-
-@import "footer";
-@import "navbar";
-@import "buttons";
+@use 'variables';
+@use 'footer';
+@use 'navbar';
+@use 'buttons';
 
 @font-face {
   font-family: 'Allerta';
@@ -40,10 +37,10 @@ html {
 body {
   font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font as default font */
   padding-top: 3.5rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  padding-bottom: $footer-height; /* Margin bottom by footer height 12rem */
+  padding-bottom: footer.$footer-height; /* Margin bottom by footer height 12rem */
 }
 hr {
-  border-top: 1px solid $vibrant-blue;
+  border-top: 1px solid variables.$vibrant-blue;
 }
 section {
     padding-top: 5rem;
@@ -55,7 +52,7 @@ article {
   padding-bottom: 5rem;
 }
 h1, h2, h3, h4, h5, h6, p {
-  color: $text-color;
+  color: variables.$text-color;
 }
 .graffiti {
     font-family: 'Allerta Stencil', sans-serif;
@@ -67,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p {
     padding-bottom: 2.5rem;
     margin-left: 2rem; /* Prevent border by rotation */
     margin-right: 2rem; /* Prevent border by rotation */
-    color: $vibrant-blue;
+    color: variables.$vibrant-blue;
 }
 @media (min-width: 576px) {
   .graffiti {
@@ -106,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p {
 .introduction {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.2rem;
-  color: $text-color;
+  color: variables.$text-color;
   width: 100%;
   text-align: center;
 }
@@ -126,7 +123,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0.5rem auto;
     width: 100%;
     .authors, .journal {
-      color: $light-text-color;
+      color: variables.$light-text-color;
       margin-bottom: 0.5rem;
     }
     .btn{
