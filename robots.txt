@@ -4,5 +4,6 @@ layout: none
 User-agent: *
 Disallow: /privacy/
 Disallow: /terms/
+Disallow: /abuseipdb-verification.html
 
 Sitemap: {{ site.url }}/sitemap.xml
