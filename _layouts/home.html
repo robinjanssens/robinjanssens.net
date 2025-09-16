@@ -57,7 +57,7 @@
         {% for publication in site.data.publications %}
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">{{ publication.title }}</h6>
+              <h5 class="card-title">{{ publication.title }}</h5>
               <h6 class="authors">
                 {% for author in publication.authors %}
                 {{ author }}{% if forloop.last == false %}, {% endif %}
