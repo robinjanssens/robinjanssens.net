@@ -64,7 +64,7 @@
   doi: https://doi.org/10.1007/978-3-031-19945-5_26
   pdf:
 -
-  title: "Device-Free Crowd Size Estimation Using Wireless Sensing on Subway Platforms "
+  title: "Device-Free Crowd Size Estimation Using Wireless Sensing on Subway Platforms"
   authors:
     - Robin Janssens
     - Erik Mannens
@@ -78,3 +78,17 @@
   url: https://www.mdpi.com/2076-3417/14/20/9386
   doi: https://doi.org/10.3390/app14209386
   pdf: publications/pdf/applsci-14-09386.pdf
+-
+  title: "Dataset for Device-Free Wireless Sensing of Crowd Size in Public Transportation Environments"
+  authors:
+    - Robin Janssens
+    - Rafael Berkvens
+    - Ben Bellekens
+  year: 2026
+  journal: "MDPI Data"
+  volume: 11
+  number: 1
+  abstract: "Congested platforms in public transportation systems can jeopardize the safety and comfort of passengers. Real-time crowd size estimation using Device-Free Wireless Sensing (DFWS) can offer a privacy-preserving solution for monitoring and preventing overcrowding. However, no public dataset exists on DFWS in public transportation environments. In this work, we introduce a new dataset comprising two different public transportation environments, which contains data on the presence of rail vehicles at the platform, as well as manual people counts at regular intervals. By providing this dataset, we aim to offer a foundation for other DFWS researchers to explore novel algorithms and methods in public transportation environments."
+  url: https://www.mdpi.com/2306-5729/11/1/21
+  doi: https://doi.org/10.3390/data11010021
+  pdf: publications/pdf/data-11-00021.pdf
