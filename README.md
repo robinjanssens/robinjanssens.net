@@ -8,4 +8,4 @@ My personal website
 - Brand Logo Icons by [Simple Icons](https://simpleicons.org/) under the [CC0 License](https://github.com/simple-icons/simple-icons-website/blob/master/LICENSE.md)
 - [Allerta](https://fonts.google.com/specimen/Allerta) typeface by [Matt McInerney](http://matt.cc) under [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 - [Allerta Stencil](https://fonts.google.com/specimen/Allerta+Stencil) typeface by [Matt McInerney](http://matt.cc) under [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
-[Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) typeface by [The Noto Project](https://github.com/notofonts) under [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
+- [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans) typeface by [The Noto Project](https://github.com/notofonts) under [Open Font License](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
