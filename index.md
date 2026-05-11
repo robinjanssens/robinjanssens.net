@@ -19,8 +19,7 @@ menu_items:
     label: "Publications"
     href: "#publications"
 
-introduction: "From an early age, I have been driven by a passion for tackling and solving technical challenges. In high school, I immersed myself in Electricity, Electronics, and Industrial ICT, laying a foundation that inspired me to pursue a degree in Applied Engineering Electronics-ICT at the University of Antwerp.<br><br>
-In my spare time, I focus on learning new skills and expanding my expertise to solve complex problems.<br><br>
+introduction: "Research engineer with solid background in electronics for embedded and wireless systems design. With 6+ years of experience in machine learning applications for wireless sensing and autonomous navigation systems. As an academic researcher with a 4 year residency in an early stage spin-off company I'm used to bridging the gap between state-of-the-art technological development and valorization.<br><br>
 If you're looking to take your scientific or technological project to the next level, let's connect!<br>
 Contact me below."
 
