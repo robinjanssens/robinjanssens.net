@@ -19,7 +19,7 @@
 -
   title: "Web Development"
   image:
-    url: "assets/images/website.jpg"
+    url: "assets/images/website.png"
     alt: "My Website"
   description: "Built and maintain this website using static generation with a responsive Bootstrap frontend, deployed on a self-managed, datacenter-hosted, Linux environment, giving me control over the full stack from markup to infrastructure."
   # button:
