@@ -1,34 +1,64 @@
 -
-  title: "3D Printer"
+  title: "3D Printing"
   image:
     url: "assets/images/3dprinter.jpg"
     alt: "My 3D printer"
-  description: "During the rise of DIY 3D printing in the maker community I Built a 3D printer based on a Graber i3 lasercutted frame and parts I gathered along the way."
-  button:
-    href: "https://photos.app.goo.gl/uzy8iaAQpk8WUi4i2"
-    label: "Go to album &raquo;"
+  description: "During the rise of DIY 3D printing in the maker community, designed and assembled a Graber i3-based 3D printer from scratch, including a custom laser-cut frame and firmware configuration, tackling challenges in mechanical and electrical systems design."
+  # button:
+  #   href: ""
+  #   label: ""
 -
   title: "Mealworms"
   image:
     url: "assets/images/mealworms.jpg"
     alt: "My mealworms"
-  description: "After the approval of the cultivation of insects for human consumption in Belgium, we tested some breeding setups to find out how feasible it would be as an independent food source."
-  button:
-    href: "https://photos.app.goo.gl/Z60EQ0mn3I6FKoVp1"
-    label: "Go to album &raquo;"
+  description: "Designed controlled breeding experiments to evaluate the feasibility of mealworm cultivation as a sustainable food source, following European regulatory approval for insect consumption. Performed an empirical study to compare setups and assess yield and labor costs."
+  # button:
+  #   href: ""
+  #   label: ""
 -
   title: "Web Development"
   image:
-    url: "assets/images/website.jpg"
+    url: "assets/images/website.png"
     alt: "My Website"
-  description: "I built this website based on a bootstrap responsive design."
+  description: "Built and maintain this website using static generation with a responsive Bootstrap frontend, deployed on a self-managed, datacenter-hosted, Linux environment, giving me control over the full stack from markup to infrastructure."
+  # button:
+  #   href: ""
+  #   label: ""
+-
+  title: "Antenna Design"
+  image:
+    url: ""
+    alt: ""
+  description: "Designed and characterized antennas across a wide frequency range (HF through mmWave), for research applications including wireless sensing, low-power communication, and over-the-horizon communication."
+  # button:
+  #   href: ""
+  #   label: ""
+-
+  title: "Crowd Counting"
+  image:
+    url: ""
+    alt: ""
+  description: "Conducted a methodical comparative study of manual and technological crowd counting methods across multiple large-scale events, in collaboration with the University of Antwerp and KDG University College. Results informed Telwijzer, a decision-support tool recommending counting strategies to event organizers based on accuracy, cost, and event parameters."
   button:
-    href: "https://github.com/robinjanssens/robinjanssens.net"
-    label: "Go to Github &raquo;"
+    href: "https://www.kdg.be/onderzoek/projecten/crowd-counting"
+    label: "Project Information"
+-
+  title: "Autonomous Navigation on Inland Waterways"
+  image:
+    url: ""
+    alt: ""
+  description: "Developed perception and navigation algorithms for autonomous barges in urban waterways, in collaboration with imec and industrial partners, contributing to a broader initiative to shift last-mile logistics from road to water."
+  button:
+    href: "https://www.imec-int.com/en/research-portfolio/smartwaterway"
+    label: "Project Information"
+
 # -
 #   title: ""
-#   image: ""
-#   describtion: ""
+#   image:
+#     url: ""
+#     alt: ""
+#   description: ""
 #   button:
 #     href: ""
 #     label: ""
