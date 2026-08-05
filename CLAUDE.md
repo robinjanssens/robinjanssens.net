@@ -1,85 +1,42 @@
 # robinjanssens.net
 
-Jekyll 4 site, self-hosted. Build with `bundle exec jekyll build`, preview with `bundle exec jekyll serve`.
+Jekyll 4 site, self-hosted. `bundle exec jekyll build`, or `bundle exec jekyll serve` to preview.
 
-## Image pipeline
+## Images
 
-Every image displayed on the site is served in three tiers — **AVIF → WebP → JPEG** — via a
-`<picture>` element. The browser picks the first format it supports, so modern browsers get AVIF
-(~30% of the JPEG bytes) and everything else still works.
+Every displayed image is served in three tiers — **AVIF → WebP → JPEG** — via `<picture>`.
+`_plugins/thumbnails.rb` generates all three at build time and is the single source of truth for
+sizes and quality settings; read it before changing anything about encoding.
 
-### Directory layout
+To add an image:
 
-| Path | Purpose | Published? |
-|---|---|---|
-| `_originals/images/` | Full-resolution sources, any format. Never referenced by the site. | No — Jekyll skips `_`-prefixed directories |
-| `assets/images/` | Generated derivatives (`.avif`, `.webp`, `.jpg`) | Yes |
-
-Keep the original. It is the only thing the derivatives can be regenerated from, and re-encoding
-an already-compressed JPEG compounds artefacts.
-
-### Adding a new image
-
-1. Drop the full-resolution source in `_originals/images/`. **No dots in the filename** other than
-   the extension — the template derives sibling paths with `split: "."`.
-2. Run the three commands below (`$SRC` = the original, `$NAME` = basename without extension).
-3. Read the output dimensions with `magick identify -format "%wx%h" assets/images/$NAME.jpg`.
-4. Reference it from the data file with the **`.jpg`** path — the template appends `.avif`/`.webp`
-   itself. Fill in `width`/`height` from step 3 so the browser reserves space (no layout shift):
+1. Put the full-resolution original in `_originals/images/`. It is never published, and it is the
+   only thing derivatives can be regenerated from. **No dots in the filename** — the template
+   derives sibling paths with `split: "."` (the plugin warns and skips if you do).
+2. Build. The plugin writes `assets/images/<name>.{avif,webp,jpg}` and logs the dimensions.
+3. Reference the **`.jpg`** path in the data file — the template appends `.avif`/`.webp` itself —
+   and copy the logged dimensions in so the browser reserves space:
 
    ```yaml
    image:
-     url: "/assets/images/$NAME.jpg"
+     url: "/assets/images/<name>.jpg"
      alt: "Describe what is in the image"
      width: 800
      height: 800
    ```
 
-### The commands
+The plugin also strips metadata (GPS, camera, timestamps) from the original itself, losslessly,
+the first time it sees it — `_originals/` is committed, so otherwise a phone photo would carry its
+coordinates into git even though they never reach the site. Orientation and ICC profile are kept
+deliberately; see the comment on `strip_source!`.
 
-```sh
-SRC=_originals/images/example.jpg
-NAME=example
-
-# JPEG — universal fallback
-magick "$SRC" -auto-orient -strip -colorspace sRGB -resize '800x800>' \
-  -quality 82 -sampling-factor 4:2:0 -interlace JPEG "assets/images/$NAME.jpg"
-
-# WebP — supported by every current browser
-magick "$SRC" -auto-orient -strip -colorspace sRGB -resize '800x800>' \
-  -quality 80 -define webp:method=6 "assets/images/$NAME.webp"
-
-# AVIF (AV1) — smallest, served first
-magick "$SRC" -auto-orient -strip -colorspace sRGB -resize '800x800>' \
-  -quality 55 "assets/images/$NAME.avif"
-```
-
-Requires ImageMagick 7 with the `libheif` (AVIF) and `libwebp` delegates:
-`brew install imagemagick libheif webp`. Verify with `magick -list format | grep -iE 'avif|webp'`.
-
-### Why these flags
-
-| Flag | Reason |
-|---|---|
-| `-auto-orient` | Bakes in EXIF rotation *before* `-strip` discards it, so phone photos don't end up sideways |
-| `-strip` | Removes EXIF/IPTC/XMP/ICC — privacy (GPS, camera serial) and bytes |
-| `-colorspace sRGB` | Normalises colour before the profile is stripped |
-| `-resize '800x800>'` | Fits inside 800×800, `>` means never upscale. Cards display at 22em ≈ 352 px, so 800 covers 2× DPI screens |
-| `-quality 82 / 80 / 55` | Chosen by measuring PSNR against a lossless reference; all land in the 33–39 dB band, visually transparent at display size. AVIF's scale is not comparable to JPEG's — 55 is roughly equivalent to JPEG 82 |
-| `-sampling-factor 4:2:0` | Chroma subsampling, ~15% smaller, invisible on photos |
-| `-interlace JPEG` | Progressive JPEG — renders coarse-to-fine instead of top-to-bottom |
-| `-define webp:method=6` | Slowest/best WebP search. Encode time doesn't matter, it runs once |
-
-**Verify the result** — sizes should be roughly AVIF < WebP < JPEG, and metadata gone:
-
-```sh
-ls -la assets/images/$NAME.*
-exiftool -s -G assets/images/$NAME.jpg   # only [File] and [JFIF] groups should appear
-```
+Derivatives are committed, so a machine without ImageMagick can still build; it just cannot add
+images. Without exiftool the originals keep their metadata but published images are still clean.
+Install instructions for both are in README.md.
 
 ### Markup
 
-Generated by `_layouts/home.html`; replicate this shape anywhere else images are added:
+Generated by `_layouts/home.html`; replicate this shape wherever images are added:
 
 ```liquid
 {% assign image_base = card.image.url | split: "." | first %}
@@ -92,17 +49,15 @@ Generated by `_layouts/home.html`; replicate this shape anywhere else images are
 </picture>
 ```
 
-Order matters: browsers take the **first** `<source>` they understand, so AVIF must precede WebP.
-`loading="lazy"` defers off-screen images; `decoding="async"` keeps decode off the main thread.
-Any `<img>` given `width`/`height` attributes also needs `height: auto` in CSS, or Bootstrap's
-`.card-img-top { width: 100% }` will stretch it to the literal pixel height.
+Browsers take the **first** `<source>` they understand, so AVIF must precede WebP. Any `<img>`
+with `width`/`height` attributes also needs `height: auto` in CSS, or Bootstrap's
+`.card-img-top { width: 100% }` stretches it to the literal pixel height.
 
 ## Liquid gotchas in this repo
 
 - **`{% if x %}` is not an emptiness check.** An empty string is truthy in Liquid, so a YAML field
   set to `""` passes and renders `src=""` / `href=""`. Use `{% if x and x != "" %}`.
-- **`!= blank` does not work** in the Liquid version bundled here (5.8.2) — it evaluates truthy for
-  both `""` and `nil`. Don't reach for it.
+- **`!= blank` does not work** in the bundled Liquid (5.8.2) — truthy for both `""` and `nil`.
 - Property lookups on `nil` return `nil` rather than raising, so `a.b.c` is safe when `a` is
-  missing. This holds only while `liquid.strict_variables` is off (it is, and `_config.yml`
-  sets no `liquid:` section).
+  missing. True only while `liquid.strict_variables` is off (it is; `_config.yml` sets no
+  `liquid:` section).

@@ -1,6 +1,47 @@
 # robinjanssens.net
 My personal website
 
+## Building
+
+```sh
+bundle install
+bundle exec jekyll serve   # preview on http://localhost:4000
+bundle exec jekyll build   # output in _site/
+```
+
+### ImageMagick and exiftool
+
+Images are served as AVIF, WebP and JPEG. `_plugins/thumbnails.rb` generates all three at build
+time from the originals in `_originals/images/`, which needs **ImageMagick 7** with the AVIF
+(`libheif`) and WebP delegates. It also uses **exiftool** to strip metadata from the originals
+themselves, so GPS coordinates in a phone photo never reach the git history.
+
+Both are only needed to add or change images — the generated files are committed, so the site
+builds without either. Missing ImageMagick prints a warning and skips generation; missing exiftool
+prints a warning and leaves the originals untouched, but published images are stripped regardless.
+
+**macOS (Homebrew)**
+
+```sh
+brew install imagemagick libheif webp exiftool
+```
+
+**Debian / Ubuntu**
+
+```sh
+sudo apt install imagemagick libmagickcore-7.q16-10-extra libimage-exiftool-perl
+```
+
+Debian 13 (Trixie) is the first release to ship ImageMagick 7 (`7.1.1`). Debian 12 (Bookworm) and
+earlier ship ImageMagick 6, which has no `magick` command and no AVIF support.
+
+Verify the delegates are present on either platform — this is the check that actually matters,
+since AVIF support depends on how the package was compiled:
+
+```sh
+magick -list format | grep -iE 'avif|webp'
+```
+
 ## References
 - [Jekyll](https://jekyllrb.com/) static site generator under [MIT License](https://github.com/jekyll/jekyll/blob/master/LICENSE)
 - [Bootstrap](http://getbootstrap.com/) responsive library under [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE)
