@@ -77,7 +77,7 @@
   abstract: "Dense urban environments pose significant challenges when it comes to detecting and measuring crowd size due to their nature of being free-flow environments containing many dynamic factors. In this paper, we use a wireless sensor network (WSN) to perform device-free crowd size estimation in a subway station. Our sensing solution uses the change in attenuation of the communication links between sensor nodes to estimate the number of people standing on the platform. In order to achieve this, we use the same attenuation information coming from the WSN to detect the presence of a rail vehicle in the station and compensate for the channel fading caused by the introduced rail vehicle. We make use of two separately trained regression models depending on the presence or absence of a rail vehicle to estimate the people count. The detection of rail vehicles occurred with a near-perfect accuracy. When evaluating the resulting estimation model on our test set, we achieved a mean average error of 3.567 people, which is a significant improvement over 6.192 people when using a single regression model. This demonstrates that device-free sensing technologies can be successfully implemented in dynamic environments by implementing detection techniques and using different regression models depending on the environment’s state."
   url: https://www.mdpi.com/2076-3417/14/20/9386
   doi: https://doi.org/10.3390/app14209386
-  pdf: publications/pdf/applsci-14-09386.pdf
+  pdf: /publications/pdf/applsci-14-09386.pdf
 -
   title: "Dataset for Device-Free Wireless Sensing of Crowd Size in Public Transportation Environments"
   authors:
@@ -91,4 +91,4 @@
   abstract: "Congested platforms in public transportation systems can jeopardize the safety and comfort of passengers. Real-time crowd size estimation using Device-Free Wireless Sensing (DFWS) can offer a privacy-preserving solution for monitoring and preventing overcrowding. However, no public dataset exists on DFWS in public transportation environments. In this work, we introduce a new dataset comprising two different public transportation environments, which contains data on the presence of rail vehicles at the platform, as well as manual people counts at regular intervals. By providing this dataset, we aim to offer a foundation for other DFWS researchers to explore novel algorithms and methods in public transportation environments."
   url: https://www.mdpi.com/2306-5729/11/1/21
   doi: https://doi.org/10.3390/data11010021
-  pdf: publications/pdf/data-11-00021.pdf
+  pdf: /publications/pdf/data-11-00021.pdf
