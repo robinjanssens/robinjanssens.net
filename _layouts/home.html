@@ -65,7 +65,7 @@
                 {{ author }}{% if forloop.last == false %}, {% endif %}
                 {% endfor %}
               </h6>
-              <p class="journal">{{ publication.year }}, {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.volume %}, {{ publication.number }}{% endif %}</p>
+              <p class="journal">{{ publication.year }}, {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.number %}, {{ publication.number }}{% endif %}</p>
 
               {% if publication.abstract %}
               <div>
