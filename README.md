@@ -9,6 +9,28 @@ bundle exec jekyll serve   # preview on http://localhost:4000
 bundle exec jekyll build   # output in _site/
 ```
 
+### Vendored front-end dependencies
+
+All front-end dependencies are **self-hosted at pinned versions**. The site makes no third-party
+requests at all — nothing is fetched from a CDN at page load.
+
+| File | Version | Source |
+|---|---|---|
+| `assets/css/bootstrap.min.css` | 5.3.8 | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css` |
+| `assets/js/bootstrap.min.js` | 5.3.8 | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js` |
+| `assets/js/feather.min.js` | 4.22.0 | `https://cdn.jsdelivr.net/npm/feather-icons@4.22.0/dist/feather.min.js` |
+
+To bump a version, download the file, verify it, and update the table above:
+
+```sh
+V=5.3.8
+curl -sfL "https://cdn.jsdelivr.net/npm/bootstrap@$V/dist/css/bootstrap.min.css" -o assets/css/bootstrap.min.css
+curl -sfL "https://cdn.jsdelivr.net/npm/bootstrap@$V/dist/js/bootstrap.min.js"   -o assets/js/bootstrap.min.js
+# cross-check the bytes against a second CDN before committing
+curl -sfL "https://unpkg.com/bootstrap@$V/dist/css/bootstrap.min.css" | shasum -a 384
+shasum -a 384 assets/css/bootstrap.min.css
+```
+
 ### ImageMagick and exiftool
 
 Images are served as AVIF, WebP and JPEG. `_plugins/thumbnails.rb` generates all three at build

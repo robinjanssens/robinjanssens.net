@@ -33,6 +33,16 @@
 html {
   position: relative;
   min-height: 100%;
+  scroll-behavior: smooth;
+}
+/* Anchor targets must clear the 3.5rem fixed navbar */
+.section, .footer {
+  scroll-margin-top: 4rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 body {
   font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font as default font */
@@ -54,10 +64,13 @@ article {
 h1, h2, h3, h4, h5, h6, p {
   color: variables.$text-color;
 }
+/* The longest heading is one unbreakable word ("PUBLICATIONS"), so the size is capped in vw as
+   well as rem: below ~440px the rem value would render text wider than the viewport, and a single
+   word cannot wrap. The rem value wins on every screen big enough to fit it. */
 .graffiti {
     font-family: 'Allerta Stencil', sans-serif;
-    font-size: 3.5rem;
-    width: 100%;
+    font-size: min(3.5rem, 9.5vw);
+    width: auto; /* Block-level: fill the parent minus the margins below, never overflow it */
     text-align: center;
     line-height: 100%;
     padding-top: 1.5rem;
@@ -69,21 +82,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 @media (min-width: 576px) {
   .graffiti {
-    font-size: 5rem;
+    font-size: min(5rem, 9.5vw);
     padding-top: 2.1rem;
     padding-bottom: 3.6rem;
   }
 }
 @media (min-width: 768px) {
   .graffiti {
-    font-size: 6rem;
+    font-size: min(6rem, 9.5vw);
     padding-top: 2.6rem;
     padding-bottom: 4.3rem;
   }
 }
 @media (min-width: 992px) {
   .graffiti {
-    font-size: 7rem;
+    font-size: min(7rem, 9.5vw);
     padding-top: 3rem;
     padding-bottom: 5rem;
   }
@@ -107,14 +120,21 @@ h1, h2, h3, h4, h5, h6, p {
   color: variables.$text-color;
   width: 100%;
   text-align: center;
+  margin-bottom: 0; /* spacing comes from .section padding */
 }
 
 .portfolio{
+  .cards {
+    display: flex;
+    flex-wrap: wrap;          /* As many 22em cards per row as fit */
+    justify-content: center;
+    gap: 1rem;
+  }
   .card {
-    margin: 0 auto; /* Center cards */
-    float: none;    /* Center cards */
-    width: 22em;
-    margin-bottom: 1rem; /* Keep horizontal space between cards */
+    /* Ideal 20em, free to grow to the original 22em or shrink on a narrow phone. Gives three
+       columns on a desktop, two on a tablet, one on a phone, with no extra breakpoints. */
+    flex: 1 1 20em;
+    max-width: 22em;
     box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.1);
 
     .card-img-top {
@@ -142,11 +162,16 @@ h1, h2, h3, h4, h5, h6, p {
         vertical-align: middle;
       }
     }
+    .btn-link {
+      text-decoration: none; /* Bootstrap 5 underlines .btn-link by default */
+    }
     .btn-outline-primary{
       margin-top: 0.5rem;
     }
   }
   .links {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     .btn {

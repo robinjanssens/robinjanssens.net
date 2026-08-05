@@ -53,6 +53,19 @@ Browsers take the **first** `<source>` they understand, so AVIF must precede Web
 with `width`/`height` attributes also needs `height: auto` in CSS, or Bootstrap's
 `.card-img-top { width: 100% }` stretches it to the literal pixel height.
 
+## Bootstrap
+
+Self-hosted at a pinned version in `assets/css/bootstrap.min.css` and `assets/js/bootstrap.min.js`
+(see README.md for the version and how to bump it). **v5 API** — JS hooks are `data-bs-toggle` /
+`data-bs-target`, spacing utilities are `ms-*`/`me-*` (not `ml-*`/`mr-*`).
+
+Two v5 traps this repo has already hit:
+
+- **`.row` styles its children.** `.row > *` gets `width: 100%` plus gutter padding, so `.row` is
+  only for real grid rows with `.col-*` children (the footer). Generic wrappers use plain
+  containers — `.cards`, `.links`, `.footer-global`.
+- **`--bs-navbar-padding-x` defaults to `0`** (v4 used `1rem`), restored in `_sass/_navbar.scss`.
+
 ## Liquid gotchas in this repo
 
 - **`{% if x %}` is not an emptiness check.** An empty string is truthy in Liquid, so a YAML field
