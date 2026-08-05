@@ -8,7 +8,7 @@
     <div class="section" id="introduction">
       <div class="container introduction">
         <div class="row">
-          <span class="graffiti rotate-clockwise">ROBIN<br>JANSSENS</span>
+          <h1 class="graffiti rotate-clockwise">ROBIN<br>JANSSENS</h1>
         </div>
         <div class="row">
           <span class="introduction">
@@ -25,7 +25,7 @@
     <div class="section" id="portfolio">
       <div class="container portfolio">
         <div class="row">
-          <span class="graffiti rotate-counterclockwise">PORTFOLIO</span>
+          <h2 class="graffiti rotate-counterclockwise">PORTFOLIO</h2>
         </div>
         <div class="row">
 
@@ -35,7 +35,7 @@
             <img class="card-img-top" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}">
             {% endif %}
             <div class="card-body">
-              <h4 class="card-title">{{ portfolio_card.title }}</h4>
+              <h3 class="card-title h4">{{ portfolio_card.title }}</h3>
               <p class="card-text">{{ portfolio_card.description }}</p>
               {% if portfolio_card.button.href and portfolio_card.button.href != "" %}<a href="{{ portfolio_card.button.href }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">{{ portfolio_card.button.label }}</a>{% endif %}
             </div>
@@ -53,18 +53,18 @@
     <div class="section" id="publications">
       <div class="container publications">
         <div class="row">
-          <span class="graffiti rotate-clockwise">PUBLICATIONS</span>
+          <h2 class="graffiti rotate-clockwise">PUBLICATIONS</h2>
         </div>
         <div class="row">
         {% for publication in site.data.publications %}
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">{{ publication.title }}</h5>
-              <h6 class="authors">
+              <h3 class="card-title h5">{{ publication.title }}</h3>
+              <p class="authors">
                 {% for author in publication.authors %}
                 {{ author }}{% if forloop.last == false %}, {% endif %}
                 {% endfor %}
-              </h6>
+              </p>
               <p class="journal">{{ publication.year }}, {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.number %}, {{ publication.number }}{% endif %}</p>
 
               {% if publication.abstract and publication.abstract != "" %}
