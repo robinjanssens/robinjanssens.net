@@ -31,7 +31,9 @@
 
         {% for portfolio_card in site.data.portfolio_cards %}
           <div class="card">
+            {% if portfolio_card.image.url and portfolio_card.image.url != "" %}
             <img class="card-img-top" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}">
+            {% endif %}
             <div class="card-body">
               <h4 class="card-title">{{ portfolio_card.title }}</h4>
               <p class="card-text">{{ portfolio_card.description }}</p>
