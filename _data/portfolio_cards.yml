@@ -1,8 +1,10 @@
 -
   title: "3D Printing"
   image:
-    url: "/assets/images/3dprinter.jpg"
+    url: "/assets/images/3dprinter.jpg"  # .avif and .webp siblings are served first, see CLAUDE.md
     alt: "My 3D printer"
+    width: 800
+    height: 800
   description: "During the rise of DIY 3D printing in the maker community, designed and assembled a Graber i3-based 3D printer from scratch, including a custom laser-cut frame and firmware configuration, tackling challenges in mechanical and electrical systems design."
   # button:
   #   href: ""
@@ -12,6 +14,8 @@
   image:
     url: "/assets/images/mealworms.jpg"
     alt: "My mealworms"
+    width: 800
+    height: 800
   description: "Designed controlled breeding experiments to evaluate the feasibility of mealworm cultivation as a sustainable food source, following European regulatory approval for insect consumption. Performed an empirical study to compare setups and assess yield and labor costs."
   # button:
   #   href: ""
@@ -19,8 +23,10 @@
 -
   title: "Web Development"
   image:
-    url: "/assets/images/website.png"
+    url: "/assets/images/website.jpg"
     alt: "My Website"
+    width: 800
+    height: 800
   description: "Built and maintain this website using static generation with a responsive Bootstrap frontend, deployed on a self-managed, datacenter-hosted, Linux environment, giving me control over the full stack from markup to infrastructure."
   # button:
   #   href: ""

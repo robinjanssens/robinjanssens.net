@@ -32,7 +32,12 @@
         {% for portfolio_card in site.data.portfolio_cards %}
           <div class="card">
             {% if portfolio_card.image.url and portfolio_card.image.url != "" %}
-            <img class="card-img-top" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}">
+            {% assign image_base = portfolio_card.image.url | split: "." | first %}
+            <picture>
+              <source type="image/avif" srcset="{{ image_base }}.avif">
+              <source type="image/webp" srcset="{{ image_base }}.webp">
+              <img class="card-img-top" src="{{ portfolio_card.image.url }}" alt="{{ portfolio_card.image.alt }}" width="{{ portfolio_card.image.width }}" height="{{ portfolio_card.image.height }}" loading="lazy" decoding="async">
+            </picture>
             {% endif %}
             <div class="card-body">
               <h3 class="card-title h4">{{ portfolio_card.title }}</h3>

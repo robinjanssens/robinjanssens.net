@@ -96,6 +96,7 @@ plugins:
 exclude:
   - .gitignore
   - CNAME
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
   - README.md
