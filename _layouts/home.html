@@ -37,7 +37,7 @@
             <div class="card-body">
               <h4 class="card-title">{{ portfolio_card.title }}</h4>
               <p class="card-text">{{ portfolio_card.description }}</p>
-              {% if portfolio_card.button %}<a href="{{ portfolio_card.button.href }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">{{ portfolio_card.button.label }}</a>{% endif %}
+              {% if portfolio_card.button.href and portfolio_card.button.href != "" %}<a href="{{ portfolio_card.button.href }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">{{ portfolio_card.button.label }}</a>{% endif %}
             </div>
           </div>
         {% endfor %}
@@ -67,7 +67,7 @@
               </h6>
               <p class="journal">{{ publication.year }}, {{ publication.journal }}{% if publication.volume %}, {{ publication.volume }}{% endif %}{% if publication.number %}, {{ publication.number }}{% endif %}</p>
 
-              {% if publication.abstract %}
+              {% if publication.abstract and publication.abstract != "" %}
               <div>
                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseAbstract{{ forloop.index0 }}" aria-expanded="false"><i data-feather="chevron-down" class="chevron"></i> Read abstract</button>
                 <div class="collapse" id="collapseAbstract{{ forloop.index0 }}">
@@ -76,8 +76,8 @@
               </div>
               {% endif %}
 
-              {% if publication.url %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Go To Publishers Website"><i data-feather="external-link"></i></a>{% endif %}
-              {% if publication.pdf %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Download PDF Version"><i data-feather="download"></i></a>{% endif %}
+              {% if publication.url and publication.url != "" %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Go To Publishers Website"><i data-feather="external-link"></i></a>{% endif %}
+              {% if publication.pdf and publication.pdf != "" %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Download PDF Version"><i data-feather="download"></i></a>{% endif %}
 
               <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Get BibTex">BibTex</a> -->
             </div>
