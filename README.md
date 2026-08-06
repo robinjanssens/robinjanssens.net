@@ -18,7 +18,11 @@ requests at all — nothing is fetched from a CDN at page load.
 |---|---|---|
 | `assets/css/bootstrap.min.css` | 5.3.8 | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css` |
 | `assets/js/bootstrap.min.js` | 5.3.8 | `https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js` |
-| `assets/js/feather.min.js` | 4.22.0 | `https://cdn.jsdelivr.net/npm/feather-icons@4.22.0/dist/feather.min.js` |
+
+Bootstrap is the only JavaScript the site loads. Icons are inline `<svg>` in the templates — the
+paths come from [Feather](https://feathericons.com/) 4.22.0, but the library itself is no longer a
+dependency. To add an icon, copy its SVG from feathericons.com and mark it `aria-hidden="true"`
+when the surrounding element already has a text label.
 
 To bump a version, download the file, verify it, and update the table above:
 

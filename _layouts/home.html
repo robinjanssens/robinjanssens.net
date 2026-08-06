@@ -66,15 +66,15 @@
 
               {% if publication.abstract and publication.abstract != "" %}
               <div>
-                <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseAbstract{{ forloop.index0 }}" aria-controls="collapseAbstract{{ forloop.index0 }}" aria-expanded="false"><i data-feather="chevron-down" class="chevron"></i> Read abstract</button>
+                <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseAbstract{{ forloop.index0 }}" aria-controls="collapseAbstract{{ forloop.index0 }}" aria-expanded="false"><svg class="chevron" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg> Read abstract</button>
                 <div class="collapse" id="collapseAbstract{{ forloop.index0 }}">
                     <p>{{ publication.abstract }}</p>
                 </div>
               </div>
               {% endif %}
 
-              {% if publication.url and publication.url != "" %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Go To Publishers Website"><i data-feather="external-link"></i></a>{% endif %}
-              {% if publication.pdf and publication.pdf != "" %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Download PDF Version"><i data-feather="download"></i></a>{% endif %}
+              {% if publication.url and publication.url != "" %}<a href="{{ publication.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Go To Publishers Website"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>{% endif %}
+              {% if publication.pdf and publication.pdf != "" %}<a href="{{ publication.pdf }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Download PDF Version"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></a>{% endif %}
 
               <!-- <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary" title="Get BibTex">BibTex</a> -->
             </div>
@@ -109,7 +109,5 @@
     <!-- ==================== JavaScript ==================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/feather.min.js"></script>
-    <script>feather.replace({})</script>
   </body>
 </html>
