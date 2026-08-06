@@ -4,6 +4,8 @@
 $navbar-bg-color: #ffffff;  // white
 $navbar-text-color: variables.$vibrant-blue;
 $navbar-hover-color: color.adjust($navbar-text-color, $lightness: 35%);
+$navbar-tagline-color: #757575;
+$navbar-tagline-gap: 0.5em;  // Space on each side of the dash, relative to the tagline font-size
 
 .navbar-custom {
   font-family: 'Noto Sans', sans-serif;
@@ -36,6 +38,34 @@ $navbar-hover-color: color.adjust($navbar-text-color, $lightness: 35%);
     font-size: 1.5rem;
     padding-top: .1rem;
     padding-bottom: .1rem;
+    margin-right: 0; /* The tagline supplies its own leading space */
+  }
+  /* Centre the tagline on the brand instead of letting the two share a baseline, which would
+     hang the smaller all-caps text off the bottom of the brand. */
+  .navbar-heading {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-tagline {
+    color: $navbar-tagline-color;
+    font-family: 'Allerta', sans-serif;
+    font-size: 1.1rem;
+    white-space: nowrap; /* Never break "RESEARCH ENGINEER" across two lines */
+    margin-left: $navbar-tagline-gap; /* Space before the dash; matches the ::before margin */
+
+    /* Drawn rather than typed as an em dash: the glyph sits on the x-height, which leaves it
+       visibly below the centre of all-caps text. Everything is in em, so it tracks the font-size.
+       0.32em lifts the rule from the baseline to the middle of the cap height (measured at
+       0.74em for Allerta), keeping it centred on both the tagline and the brand. */
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.75em;
+      height: 0.1em;
+      margin-right: $navbar-tagline-gap; /* Space after the dash; identical to the one before */
+      vertical-align: 0.32em;
+      background-color: currentColor;
+    }
   }
 
 }
