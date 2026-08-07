@@ -103,7 +103,6 @@ PLATFORMS
 DEPENDENCIES
   addressable (>= 2.8.0)
   jekyll (~> 4.4.1)
-  jekyll-feed (~> 0.6)
   jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
