@@ -1,0 +1,73 @@
+{%- comment -%}
+Structured data for the publication list, generated from the same _data/publications.yml the
+cards are rendered from, so the two cannot drift apart.
+
+One @graph of ScholarlyArticle nodes rather than a script per paper: fewer blocks, and it keeps
+the whole bibliography as a single addressable set. Every value goes through `jsonify`, which
+escapes quotes and newlines — abstracts contain both.
+
+Journal/volume/issue use the schema.org nesting convention:
+  PublicationIssue -> PublicationVolume -> Periodical
+Papers with no volume (the conference proceedings here) fall back to the Periodical alone.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+{%- for publication in site.data.publications %}
+    {
+      "@type": "ScholarlyArticle",
+      "headline": {{ publication.title | jsonify }},
+      "name": {{ publication.title | jsonify }},
+      "author": [
+        {%- for author in publication.authors %}
+        { "@type": "Person", "name": {{ author | jsonify }} }{% unless forloop.last %},{% endunless %}
+        {%- endfor %}
+      ],
+      {%- if publication.year and publication.year != "" %}
+      {%- comment %} Quoted: datePublished is an ISO 8601 Date, not a number {% endcomment %}
+      "datePublished": "{{ publication.year }}",
+      {%- endif %}
+      {%- if publication.journal and publication.journal != "" %}
+      "isPartOf": {
+        {%- if publication.volume and publication.volume != "" %}
+        "@type": "PublicationIssue",
+        {%- if publication.number and publication.number != "" %}
+        "issueNumber": {{ publication.number | jsonify }},
+        {%- endif %}
+        "isPartOf": {
+          "@type": "PublicationVolume",
+          "volumeNumber": {{ publication.volume | jsonify }},
+          "isPartOf": { "@type": "Periodical", "name": {{ publication.journal | jsonify }} }
+        }
+        {%- else %}
+        "@type": "Periodical",
+        "name": {{ publication.journal | jsonify }}
+        {%- endif %}
+      },
+      {%- endif %}
+      {%- if publication.abstract and publication.abstract != "" %}
+      "abstract": {{ publication.abstract | jsonify }},
+      {%- endif %}
+      {%- if publication.doi and publication.doi != "" %}
+      "sameAs": {{ publication.doi | jsonify }},
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DOI",
+        "value": {{ publication.doi | remove_first: "https://doi.org/" | jsonify }}
+      },
+      {%- endif %}
+      {%- if publication.pdf and publication.pdf != "" %}
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": {{ publication.pdf | absolute_url | jsonify }},
+        "encodingFormat": "application/pdf"
+      },
+      {%- endif %}
+      "inLanguage": "en",
+      "url": {%- if publication.url and publication.url != "" %} {{ publication.url | jsonify }}{% else %} {{ page.url | absolute_url | jsonify }}{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+{%- endfor %}
+  ]
+}
+</script>
