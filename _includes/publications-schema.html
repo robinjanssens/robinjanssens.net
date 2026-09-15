@@ -10,11 +10,16 @@ Journal/volume/issue use the schema.org nesting convention:
   PublicationIssue -> PublicationVolume -> Periodical
 Papers with no volume (the conference proceedings here) fall back to the Periodical alone.
 {%- endcomment -%}
+{%- comment -%}
+Takes the already-sorted list so the graph matches the order of the rendered cards;
+falls back to the raw data file if included without the parameter.
+{%- endcomment -%}
+{%- assign publications = include.publications | default: site.data.publications -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-{%- for publication in site.data.publications %}
+{%- for publication in publications %}
     {
       "@type": "ScholarlyArticle",
       "headline": {{ publication.title | jsonify }},

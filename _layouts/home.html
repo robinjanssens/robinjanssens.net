@@ -50,11 +50,17 @@
     </div>
 
     <div class="section" id="publications">
-      {% include publications-schema.html %}
+      {%- comment -%}
+        Newest first, sorted here rather than in the data file, so adding a paper never means
+        re-ordering _data/publications.yml. The same sorted list is handed to the structured
+        data below so the two always agree.
+      {%- endcomment -%}
+      {% assign publications_by_year = site.data.publications | sort: "year" | reverse %}
+      {% include publications-schema.html publications=publications_by_year %}
       <div class="container publications">
         <h2 class="graffiti rotate-clockwise">PUBLICATIONS</h2>
         <div class="cards">
-        {% for publication in site.data.publications %}
+        {% for publication in publications_by_year %}
           <div class="card">
             <div class="card-body">
               <h3 class="card-title h5">{{ publication.title }}</h3>
