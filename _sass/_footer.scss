@@ -1,8 +1,9 @@
 @use 'sass:color';
 
-$footer-bg-color: #f6f6f6;  // light gray
-$footer-text-color: #606868;  // gray
-$footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
+$footer-bg-color: #14213d;    // navy
+$footer-text-color: #e6e9ef;  // off-white, 12:1 on the navy
+$footer-hover-color: #ffffff;
+$footer-rule-color: rgba(255, 255, 255, 0.18);
 
 .footer {
   margin-top: auto; /* Pushed to the bottom by the flex column on body; grows with its content */
@@ -19,12 +20,14 @@ $footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
   }
 
   hr {
-    border-top: 1px solid #d8d8d8;
+    border-top: 1px solid $footer-rule-color;
+    opacity: 1; /* Bootstrap 5 fades <hr> to 25% */
   }
 
   .social {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.75rem; /* Breathing room before the divider */
+    line-height: 1.85;       /* Items are <a> + <br> */
     .icon {
       vertical-align: middle;
       margin-right: 0.75rem; /* Gap between icon and label */
@@ -46,26 +49,62 @@ $footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
     }
   }
 
-  .footer-global {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+  /* Signature in the left column */
+  .footer-identity {
+    padding-top: 1rem;
+    margin-bottom: 0;
 
-    .footer-brand {
+    .footer-identity-name {
+      display: block;
       font-family: 'Allerta', sans-serif;
-    }  
+      font-size: 1.5rem;
+      letter-spacing: 0.03em;
+      color: $footer-text-color;
+    }
+    .footer-identity-role {
+      display: block;
+      font-family: 'Allerta', sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      margin-top: 0.25rem;
+      color: $footer-text-color;
+      opacity: 0.65; /* Same weight as the strip below: secondary to the name */
+    }
+  }
+
+  .footer-global {
+    display: flex;
+    flex-wrap: wrap; /* Stacks into two lines on narrow phones */
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.25rem;
+    font-size: 0.85rem;
+
+    .footer-copyright {
+      opacity: 0.65;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
 
     a {
       font-family: 'Noto Sans', sans-serif;
       text-decoration: none;
-      padding-right: 2rem;
+      opacity: 0.65;
+      transition: opacity 0.15s ease-in-out;
     }
     a:link,
     a:visited {
       color: $footer-text-color;
     }
     a:hover,
-    a:active {
+    a:active,
+    a:focus-visible {
       color: $footer-hover-color;
+      opacity: 1;
     }
   }
 
