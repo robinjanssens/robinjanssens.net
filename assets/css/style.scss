@@ -31,7 +31,6 @@
 }
 
 html {
-  position: relative;
   min-height: 100%;
   scroll-behavior: smooth;
 }
@@ -47,7 +46,10 @@ html {
 body {
   font-family: 'Noto Sans', sans-serif; /* Use 'Noto Sans' font as default font */
   padding-top: 3.5rem;  /* Move down content because we have a fixed navbar that is 3.5rem tall */
-  padding-bottom: footer.$footer-height; /* Margin bottom by footer height 12rem */
+  /* Sticky footer: the footer is the last flex child with margin-top:auto, so it sits at the bottom of short pages */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 hr {
   border-top: 1px solid variables.$vibrant-blue;

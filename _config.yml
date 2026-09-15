@@ -23,10 +23,11 @@ logo: /assets/images/logo.png
 social:
   name: Robin Janssens
   links:
-    - https://twitter.com/robin_janssens
-    - https://www.facebook.com/janssensrobin
-    - https://www.instagram.com/r_janssens
+    # - https://twitter.com/robin_janssens
+    # - https://www.facebook.com/janssensrobin
+    # - https://www.instagram.com/r_janssens
     - https://www.linkedin.com/in/robin-janssens-4140b1a0/
+    - https://github.com/robinjanssens
 lang: en_US
 
 defaults:

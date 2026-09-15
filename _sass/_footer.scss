@@ -1,15 +1,11 @@
 @use 'sass:color';
 
-$footer-height: 21.5rem;
 $footer-bg-color: #f6f6f6;  // light gray
 $footer-text-color: #606868;  // gray
 $footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: $footer-height; /* Set the fixed height of the footer here */
+  margin-top: auto; /* Pushed to the bottom by the flex column on body; grows with its content */
   background-color: $footer-bg-color;
   color: $footer-text-color;
   padding-top: 1rem;
@@ -31,13 +27,13 @@ $footer-hover-color: color.adjust($footer-text-color, $lightness: 25%);
     padding-bottom: 0.5rem;
     .icon {
       vertical-align: middle;
-      margin-right: 1rem; /* Gap between icon and label */
-      height: 24px;
-      width: 24px;
+      margin-right: 0.75rem; /* Gap between icon and label */
+      height: 1.25em; /* Track the font-size below rather than a fixed pixel size */
+      width: 1.25em;
     }
     a {
       font-family: 'Noto Sans', sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.1rem;
       text-decoration: none;
     }
     a:link,
