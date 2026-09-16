@@ -19,3 +19,14 @@ $button-hover-color: color.adjust($button-color, $lightness: 35%);
   color: $button-hover-color;
   border-color: $button-hover-color;
 }
+
+.btn-primary {
+  --bs-btn-bg: #{$button-color};
+  --bs-btn-border-color: #{$button-color};
+  --bs-btn-hover-bg: #{color.adjust($button-color, $lightness: -12%)};
+  --bs-btn-hover-border-color: #{color.adjust($button-color, $lightness: -12%)};
+  --bs-btn-active-bg: #{color.adjust($button-color, $lightness: -18%)};
+  --bs-btn-active-border-color: #{color.adjust($button-color, $lightness: -18%)};
+  --bs-btn-border-width: 2px;
+  --bs-btn-border-radius: 10px;
+}

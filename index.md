@@ -20,7 +20,14 @@ menu_items:
     href: "#publications"
 
 introduction: "Research engineer with solid background in electronics for embedded and wireless systems design. With 6+ years of experience in machine learning applications for wireless sensing and autonomous navigation systems. As an academic researcher with a 4 year residency in an early stage spin-off company I'm used to bridging the gap between state-of-the-art technological development and valorization.<br><br>
-If you're looking to take your scientific or technological project to the next level, let's connect!<br>
-Contact me below."
+If you're looking to take your scientific or technological project to the next level, let's connect!"
+
+# Hero call-to-action buttons, rendered under the introduction. First one is the primary action.
+actions:
+  - label: "Get in touch"
+    href: "#contact"
+    primary: true
+  - label: "View portfolio"
+    href: "#portfolio"
 
 ---

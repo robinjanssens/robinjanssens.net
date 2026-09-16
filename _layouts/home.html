@@ -11,6 +11,13 @@
         <p class="introduction">
           {{ page.introduction }}
         </p>
+        {%- if page.actions and page.actions.size > 0 %}
+        <p class="introduction-actions">
+          {%- for action in page.actions %}
+          <a href="{{ action.href }}" class="btn btn-lg {% if action.primary %}btn-primary{% else %}btn-outline-primary{% endif %}">{{ action.label }}</a>
+          {%- endfor %}
+        </p>
+        {%- endif %}
       </div>
     </div>
 
