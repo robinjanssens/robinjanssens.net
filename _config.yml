@@ -19,7 +19,9 @@ title: Robin Janssens
 tagline: Research Engineer
 author: Robin Janssens
 email: robin@robinjanssens.net
-description: Website of Robin Janssens.
+# Meta description for the homepage (and the fallback for any page without its own). Search
+# engines show ~155 characters as the snippet under the title; keep it within that.
+description: "Research engineer in embedded and wireless systems, applying machine learning to wireless sensing and autonomous navigation. Portfolio and publications."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://robinjanssens.net" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/images/logo.png
