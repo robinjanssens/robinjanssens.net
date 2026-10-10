@@ -14,6 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Robin Janssens
+# Homepage <title> is "title | tagline" (jekyll-seo-tag). Keep the whole thing under ~60
+# characters, or Google truncates it in search results.
+tagline: Research Engineer
 author: Robin Janssens
 email: robin@robinjanssens.net
 description: Website of Robin Janssens.

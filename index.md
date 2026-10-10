@@ -4,7 +4,7 @@
 
 layout: home
 
-title: Home # The title of the post, page, or document
+# No title on purpose: jekyll-seo-tag then renders "Robin Janssens | <tagline>" from _config.yml.
 description: Website of Robin Janssens. # A short description of the page's content
 image: /assets/images/default_thumbnail.png # URL to an image associated with the post, page, or document (e.g., /assets/page-pic.jpg)
 author: Robin Janssens # Page-, post-, or document-specific author information (see Advanced usage)
